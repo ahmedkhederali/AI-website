@@ -420,14 +420,12 @@
      */
     $(".yearly").hide();
     $(".yearly-price").on("click", async function () {
-      debugger
       $(".monthly").hide();
       $(".yearly").show();
       $(".price-btn").removeClass("price-btn-active");
       $(this).addClass("price-btn-active");
     });
     $(".monthly-price").on("click", function () {
-      debugger
       $(".yearly").hide();
       $(".monthly").show();
       $(".price-btn").removeClass("price-btn-active");
