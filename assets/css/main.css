@@ -1890,10 +1890,13 @@ span {
 .subscribe-form input {
   flex-grow: 1;
   padding: 20px 20px;
-  background-color: var(--quaternary-color);
+  background-color: #fffffff5  !important;
   border-radius: 10px;
-  color: var(--white);
-  width: calc(100% - 70px);
+  color: var(--black) !important;
+  width: 300px !important;
+}
+.subscribe-form input::placeholder {
+  /* color: red !important;  */
 }
 .subscribe-form button {
   width: 70px;
@@ -3419,7 +3422,7 @@ span {
   color: #ffffff;
 }
 .footer-seven .offcanvas-info__form input::placeholder {
-  color: #ffffff;
+  color: #797979;
 }
 .footer-seven .offcanvas-info__form button {
   /* background-color: var(--primary-color); */
@@ -8193,7 +8196,7 @@ span {
     max-width: 100%;
   }
   .section {
-    padding: 700px 0px;
+    padding: 300px 0px;
   }
   .section__cta {
     margin-top: 40px;
@@ -9202,6 +9205,9 @@ text-align: center;
 .socila__content a {
 padding: 25px;
 }
+.socila__content a i{
+  color: #29abe2;
+  }
 
 .footer-alter .footer__nav a {
     font-size: 1rem;
