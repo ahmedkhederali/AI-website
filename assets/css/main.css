@@ -1890,10 +1890,13 @@ span {
 .subscribe-form input {
   flex-grow: 1;
   padding: 20px 20px;
-  background-color: var(--quaternary-color);
+  background-color: #fffffff5  !important;
   border-radius: 10px;
-  color: var(--white);
-  width: calc(100% - 70px);
+  color: var(--black) !important;
+  width: 300px !important;
+}
+.subscribe-form input::placeholder {
+  /* color: red !important;  */
 }
 .subscribe-form button {
   width: 70px;
@@ -3419,7 +3422,7 @@ span {
   color: #ffffff;
 }
 .footer-seven .offcanvas-info__form input::placeholder {
-  color: #ffffff;
+  color: #797979;
 }
 .footer-seven .offcanvas-info__form button {
   /* background-color: var(--primary-color); */
@@ -8202,7 +8205,7 @@ span {
     max-width: 100%;
   }
   .section {
-    padding: 700px 0px;
+    padding: 300px 0px;
   }
   .section__cta {
     margin-top: 40px;
@@ -9175,10 +9178,46 @@ span {
 }
 
 .footer .footer__nav-list h6{
-    color: #fff;
-    font-size: 18px;
-    margin-bottom: 2rem;
+  color: #217daa;
+  font-size: 18px;
+  margin-bottom: 2rem;
+  padding-left: 10px;
+  border-left: 3px solid var(--quinary-color);
+  padding-bottom: 6px;
+
 }
+
+.footer .footer__nav-list ul li a{
+text-decoration: none !important;
+background-color: transparent;
+-webkit-text-decoration-skip: objects;
+
+}
+
+footer .footer__nav-list ul li a i {
+margin-right: 5px;
+}
+
+footer .footer__nav-list ul li{
+padding: 3px 0;
+-webkit-transition: .5s all ease;
+-moz-transition: .5s all ease;
+transition: .5s all ease;
+}
+footer .footer__nav-list ul li:hover{
+padding: 3px 0;
+margin-left:5px;
+font-weight:700;
+}
+.socila__content {
+text-align: center;
+}
+.socila__content a {
+padding: 25px;
+}
+.socila__content a i{
+  color: #29abe2;
+  }
 
 .footer-alter .footer__nav a {
     font-size: 1rem;
