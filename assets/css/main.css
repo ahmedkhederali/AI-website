@@ -1891,8 +1891,8 @@ span {
   display: flex;
   align-items: center;
   gap: 8px;
-  width: 100%;
-  max-width: 360px;
+  width: 83%;
+  /* max-width: 360px; */
   position: relative;
 }
 .subscribe-form input {
@@ -3332,11 +3332,12 @@ span {
   display: flex;
   flex-direction: column;
   /* align-items: center; */
+  flex-grow: 1;
   gap: 30px;
 }
 .footer-alter .footer-alter__content h2 {
   color: var(--white);
-  max-width:321px;
+  width:auto;
 }
 .footer-alter .footer-alter__content .offcanvas-info__form {
   flex-grow: 1;
@@ -3429,7 +3430,7 @@ span {
 }
 .footer-seven .offcanvas-info__form {
   flex-grow: 1;
-  display: flex;
+  /* display: flex; */
   gap: 40px;
   flex-wrap: wrap;
 }
@@ -4262,7 +4263,7 @@ span {
   z-index: -1;
 }
 .tabs__icons {
-  width: 94%;
+  width: 99%;
   margin-right: auto;
   margin-left: auto;
 }
@@ -7864,7 +7865,7 @@ span {
     align-items: flex-end;
   }
   .h-s-case .h-s-case-single .h-case-content .case-title .light-title {
-    font-size: 48px;
+    font-size: 30px;
   }
   .h-s-case-alter .h-s-case-single .h-case-content {
     position: absolute;
@@ -8196,9 +8197,7 @@ span {
   .banner-seven__group .content p {
     width: 70%;
   }
-  .banner-bg-left {
-
-  }
+ 
 }
 @media only screen and (max-width: 991.98px) {
   .primary-text {
@@ -8543,12 +8542,52 @@ span {
     padding-bottom: 250px;
   }
 }
+
+  /*For MObil App*/
 @media only screen and (max-width: 767.98px) {
+  .section{
+    padding: 100px 0;
+  }
+
   .banner-bg-left {
     right: 0;
     left: auto !important;
     transform: rotate(180deg);
   }
+  .subscribe-form{
+    width: 100%;
+  }
+  .videoInMobile{
+    height: 250px;
+  }
+  .h-s-case-alter .case-filter__wrapper {
+    gap: 15px;
+    row-gap: 20px;
+  }
+  .banner-seven__thumb img{
+    display: none;
+  }
+  .title-animation{
+    text-align: center;
+  }
+  .footer-seven .offcanvas-info__form {
+    display: block;
+  }
+  .mobile-menu{
+    height: 100vh;
+  }
+  .mobile-menu__backdrop-active{
+    height: 100vh;
+  }
+  
+  .hero-section .banner-seven__group{
+    margin-top: 135px;
+  }
+  .banner-seven__content .banner__five-content  {
+    display: flex;
+    align-items:stretch
+  }
+  
   .banner-bg-right {
     display: none;
   }
@@ -8794,6 +8833,8 @@ span {
     max-width: 100%;
   }
 }
+
+  /*End  MObil App*/
 @media only screen and (max-width: 575.98px) {
   h1,
   .light-title {
@@ -8831,6 +8872,7 @@ span {
   .primary-navbar .navbar {
     gap: 20px;
   }
+
   .primary-navbar .navbar__logo {
     max-width: 110px;
   }
@@ -9067,6 +9109,30 @@ span {
     line-height: 1.2;
   }
 }
+@media only screen
+  and (min-device-width: 1400px)
+  and (max-device-width: 1700px)  {
+  .banner-seven .banner-seven__thumb{
+    bottom:-40px
+  }
+}
+
+
+/*For Mobile*/
+@media only screen and (min-width: 768px) {
+  .banner .banner-anime {
+    --transformY: -50%;
+  }
+  }
+/*End For Mobile*/
+@media only screen and (max-width: 1500px) {
+  .banner-seven__thumb img{
+    display: none;
+  }
+  .banner-seven__content .banner__five-content{
+    margin: auto;
+  }
+}
 @media only screen and (min-width: 768px) {
   .banner .banner-anime {
     --transformY: -50%;
@@ -9092,14 +9158,37 @@ span {
     transform: rotate(-154deg) translateY(-200px);
   }
 }
+
 /* ==== 
  --------- (6.0) responsive styles end ---------
  ==== */
 
  /***** New *****/
  .hero-section {
-    background: url(../images/banner/banner-s-bg.png), radial-gradient(172.95% 76.92% at 46.67% 50%, var(--tertiary-color) 0%, var(--theme-bg) 100%);
- }
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-section video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1; /* Ensure the video is behind other content */
+}
+.hero-section .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-color: rgb(26, 26, 26);
+  opacity: .7;
+  z-index: -1; /* Ensure the video is behind other content */
+}
  .hero-section h1, .hero-section .l-t {
     font-size: 70px;
  }
@@ -9270,4 +9359,3 @@ padding: 25px;
     max-width: 200px;
 }
  /***** End New *****/
-
