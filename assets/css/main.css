@@ -9367,7 +9367,6 @@ padding: 25px;
     color: #fff;
 }
 ul li:not(.header-list) {
-  text-indent: 10px;
   color: #8d8787;
   padding: 2px;
 }
@@ -9439,4 +9438,14 @@ ul li:not(.header-list) {
   transform: scale(1.1);
 }
 
+#map {
+  height: 200px;
+    width: 100%;
+    background: transparent;
+}
+.social hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
  /***** End New *****/
