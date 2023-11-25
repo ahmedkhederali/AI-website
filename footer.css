@@ -105,7 +105,6 @@
 
 #section-2 {
     display: flex;
-    align-items: center;
 }
 
 .section-2-part {
@@ -122,13 +121,14 @@
 .section2__column-75 {
     display: flex;
     flex: 3;
-    align-items: center;
 }
 
 .section2__column-25 {
     flex: 1;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 15px;
 }
 #section-3 {
     display: flex;
@@ -152,6 +152,7 @@
     flex: 1;
     display: flex;
     align-items: center;
+
 }
 .phone__icons {
     display: flex;
@@ -167,7 +168,7 @@
 .logo__container {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: space-evenly;
 }
 .logo__container h6 {
     margin-top: 30px;
@@ -212,3 +213,34 @@
     margin: auto;
     display: flex;
   }
+.address__container {
+    padding-top: 20px;
+}
+.address__container h6 {
+    color: #217daa;
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 13px;
+}
+.address__container p {
+    font-weight: 500;
+    padding: 0 2px;
+}
+.address__container p .address__img {
+    max-width: 30px;
+    margin-right: 8px;
+}
+.address__container h6 .address__img {
+    max-width: 30px;
+    margin-right: 5px;
+}
+.social-icons {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 20px;
+}
+.social-icons a {
+    font-size: 24px; 
+    color: #24aae1;
+  }
+  

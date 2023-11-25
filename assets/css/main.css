@@ -8200,9 +8200,13 @@ span {
  
 }
 @media only screen and (max-width: 991.98px) {
+  .section__2__container {
+    flex-direction: column;
+  }
   .footer-section__1 {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
+
   }
   #section-2 {
     flex-direction: column;
@@ -8861,6 +8865,11 @@ span {
   }
   .footer-alter .footer-alter__inner .subscribe-form {
     max-width: 100%;
+  }
+}
+@media only screen and (max-width: 630px) { 
+  .section3__column-75 {
+    flex-direction: column;
   }
 }
 
