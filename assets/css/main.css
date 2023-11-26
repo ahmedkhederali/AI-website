@@ -1206,9 +1206,7 @@ span {
   object-fit: cover;
   z-index: 1;
 }
-.video-container {
 
-}
 .offcanvas-info,
 .offcanvas-info_video {
   position: fixed;
@@ -1216,7 +1214,7 @@ span {
   right: 0px;
   bottom: 0px;
   min-height: 100vh;
-  width: 100%;
+  width: auto;
   max-width: 80%;
     backdrop-filter: blur(30px);
     background-color: rgba(255,255,255,.15);  /* background-color: var(--tertiary-color); */
@@ -1230,7 +1228,7 @@ span {
 .offcanvas-info_video .offcanvas-info__inner {
   display: flex;
   flex-direction: column;
-  padding: 80px 40px;
+  padding: 80px 40px 40px 20px;
   gap: 60px;
   height: 100%;
   overflow-y: auto;
@@ -1330,7 +1328,7 @@ span {
   font-size: 24px;
 }
 .offcanvas-info .offcanvas-info__footer a:hover {
-  color: var(--black);
+  color: var(--white);
 }
 .offcanvas-info .close-offcanvas-info,
 .offcanvas-info_video .close-offcanvas-info_video {
@@ -1891,7 +1889,7 @@ span {
   display: flex;
   align-items: center;
   gap: 8px;
-  width: 83%;
+  width: 100%;
   /* max-width: 360px; */
   position: relative;
 }
@@ -2096,7 +2094,7 @@ span {
   margin: auto;
   margin-top: 18px;
   border-radius: 60px;
-  box-shadow: var(--shadow)
+  box-shadow: var(--shadow);
 
 }
 .primary-navbar .navbar {
@@ -2105,6 +2103,7 @@ span {
   justify-content: space-between;
   /* gap: 60px; */
   flex-wrap: wrap;
+
 }
 .primary-navbar .navbar__menu {
   flex-grow: 1;
@@ -2986,7 +2985,7 @@ span {
   z-index: -1;
 }
 .banner-seven .banner-seven__thumb img {
-  max-width: 40vw;
+  max-width: 33vw;
   /* width: 18rem; */
 }
 
@@ -8114,11 +8113,13 @@ span {
     transform: translateY(0px);
     opacity: 1;
     visibility: visible;
+    height: 100vh;
   }
   .show-menu {
     transform: translateX(0px);
     opacity: 1;
     visibility: visible;
+    height: 100vh;
   }
   .show-menu .mobile-menu__wrapper {
     transform: translateY(0px);
@@ -8707,6 +8708,9 @@ span {
   .banner-seven .banner-seven__thumb img {
     min-width: 180px;
   }
+  .offcanvas-info, .offcanvas-info_video{
+    width: auto;
+  }
   .about-banner .scroll-position-btn {
     width: 80px;
     min-width: 80px;
@@ -8864,6 +8868,10 @@ span {
     width: 100%;
   }
   .footer-alter .footer-alter__inner .subscribe-form {
+    max-width: 100%;
+  }
+  .offcanvas-info, .offcanvas-info_video{
+    width: 100%;
     max-width: 100%;
   }
 }
@@ -9236,7 +9244,7 @@ span {
  }
 
  .hero-section .banner-seven__group{
-    margin-top: 100px;
+    margin-top: 90px;
  }
 
  .banner-bg-right{
@@ -9256,9 +9264,7 @@ span {
     padding: 30px 20px;
  }
 
- .offcanvas-info{
-    width: auto;
- }
+
  .offcanvas-info .offcanvas-info__intro h4,
  .offcanvas-info .offcanvas-info__content h5,
  .offcanvas-info .offcanvas-info__form h5,
@@ -9480,5 +9486,29 @@ ul li:not(.header-list) {
 {
   border-top-color:#bbb;
   opacity:0.5
+}
+
+@media only screen
+  and (min-device-width: 1024px)
+  and (max-device-width: 1366px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  /* Styles for iPad Pro */
+
+  .banner-seven__group .content p{
+    width: 100%;
+  }
+  .i-pad{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .offcanvas-info{
+    top: 14%;
+    min-height: 69vh !important;
+    bottom: auto;
+  }
+  .offcanvas-info, .offcanvas-info_video{
+    width: auto;
+    max-width: 80%;
+  }
 }
  /***** End New *****/
