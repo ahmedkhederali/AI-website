@@ -9557,5 +9557,31 @@ ul li:not(.header-list) {
     width: auto;
     max-width: 80%;
   }
+  .section {
+    padding: 40px 0;
+  }
+  .banner-seven {
+    padding: 260px 0px 0px 0px;
+  }
+  .light-title{
+    font-size: 25px !important;
+  }
+  .h-s-case-alter .h-s-case-single{
+    border-radius: 10px;
+  }
+  .pricing .section__header .section__content-cta{
+    display: flex;
+    justify-content: baseline;
+    flex-wrap: nowrap;
+  }
+  .custom-tabs.nav-pills .nav-link:before{
+    display: none;
+  }
+  .custom-tabs.nav-pills .nav-link{
+    padding: 13px 7px;
+  }
+  .section__header{
+    margin-bottom: 20px;
+  }
 }
  /***** End New *****/
