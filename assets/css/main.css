@@ -600,7 +600,7 @@ span {
 }
 
 .section {
-  padding: 120px 0px;
+  padding: 80px 0px;
   overflow-x: clip;
   position: relative;
   z-index: 1;
@@ -7043,6 +7043,8 @@ span {
   z-index: 1;
   transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
   cursor: pointer;
+  border-radius: 10px !important;
+
 }
 .h-s-case-alter .h-s-case-single .thumb {
   position: relative;
@@ -9623,5 +9625,20 @@ ul li:not(.header-list) {
   .custom-tabs.nav-pills .nav-link{
     padding: 10px 7px 10px 7px !important;
   }
+  .conevrtImageTobeFirst{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .pricing .section__header .section__content-cta {
+    display: flex;
+    flex-direction: column;
+  }
+  .title-animation-solution{
+    text-align: start;
+  }
+  .slick-track{
+    padding: 0px !important;
+  }
+
 }
  /***** End New *****/
