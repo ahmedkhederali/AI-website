@@ -3332,7 +3332,7 @@ span {
   flex-direction: column;
   /* align-items: center; */
   flex-grow: 1;
-  gap: 30px;
+  gap: 20px;
 }
 .footer-alter .footer-alter__content h2 {
   color: var(--white);
@@ -7897,8 +7897,21 @@ span {
     background-size: cover;
     background-position: center;
   }
+  .subscribe__container {
+    width: 88% !important;
+  }
   .certified {
     display: block !important;
+  }
+  .news__container {
+    width: 100% !important;
+  }
+  .latest-post-wrapper {
+    display: flex !important;
+    flex-wrap: wrap !important;
+  }
+  .b-details .latest-post-wrapper .latest-post-single{
+    width: 50% !important;
   }
   p,
   th,
@@ -8917,6 +8930,9 @@ span {
   .section3__column-75 {
     flex-direction: column;
   }
+  .subscribe__container {
+    width: 100% !important;
+  }
 }
 
   /*End  MObil App*/
@@ -8938,6 +8954,12 @@ span {
   }
   .footer__nav-list {
     width: 40% !important;
+  }
+  .footer-alter__content p {
+    text-align: center;
+  }
+  .b-details .latest-post-wrapper .latest-post-single{
+    width: 100% !important;
   }
 
     h1,

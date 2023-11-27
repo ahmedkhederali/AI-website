@@ -241,3 +241,19 @@
     display: none;
     margin-bottom: 25px;
   }
+
+  .subscribe__container {
+    width: 83%;
+  }
+  .footer-alter__inner img {
+    animation: moveDown 3s linear infinite;
+  }
+
+  @keyframes moveDown {
+    0% {
+      top: -100px; 
+    }
+    100% {
+      top: calc(100% - 350px);
+    }
+  }
