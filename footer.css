@@ -129,7 +129,7 @@
 .section2__column-25 {
     display: flex;
     flex-direction: column;
-    gap: 35px;
+    gap: 12px;
 }
 #section-3 {
     display: flex;
@@ -137,7 +137,7 @@
 }
 
 .section-3-part {
-    padding: 20px;
+    padding: 9px;
     display: flex;
 }
 
@@ -217,7 +217,7 @@
 .address__container p {
     font-weight: 500;
     font-size: 17px;
-    padding: 12px 0px;
+    padding: 6px 0px;
 }
 .address__container p .address__img {
     max-width: 30px;
@@ -231,7 +231,7 @@
 .social-icons {
     display: flex;
     gap: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .social-icons a {
     font-size: 24px; 
