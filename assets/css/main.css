@@ -2450,7 +2450,7 @@ span {
   height: 430px;
   min-height: 300px;
   border-radius: 50%;
-  background: rgba(75, 169, 255, 0.44);
+  background: rgb(7 2 35 / 90%);
   filter: blur(272px);
   z-index: -1;
 }
@@ -2605,7 +2605,7 @@ span {
   min-width: 40px;
   height: 0%;
   opacity: 0.6999999881;
-  background: rgba(255, 255, 255, 0.44);
+  background: rgb(7 2 35 / 90%);
   z-index: -1;
   animation: ant 1.5s cubic-bezier(0.19, 1, 0.22, 1) forwards;
   animation-delay: 1.6s;
@@ -3017,7 +3017,7 @@ span {
   height: 570px;
   min-height: 300px;
   border-radius: 50%;
-  background: rgba(75, 255, 223, 0.6);
+  background: rgb(7 2 35 / 90%);
   filter: blur(270px);
   z-index: -1;
 }
@@ -3159,7 +3159,7 @@ span {
   height: 50%;
   min-height: 300px;
   border-radius: 50%;
-  background: rgba(75, 82, 255, 0.09);
+  background: rgb(7 2 35 / 90%);
   filter: blur(227px);
   z-index: -1;
 }
@@ -3407,7 +3407,7 @@ span {
   height: 520px;
   min-height: 300px;
   border-radius: 50%;
-  background: rgba(84, 173, 255, 0.39);
+  background: rgb(7 2 35 / 90%);
   filter: blur(130px);
   z-index: -1;
 }
@@ -3470,7 +3470,7 @@ span {
   height: 560px;
   min-height: 300px;
   border-radius: 50%;
-  background: rgba(208, 75, 255, 0.24);
+  background: rgb(7 2 35 / 90%);
   filter: blur(230px);
   z-index: -1;
 }
@@ -3738,7 +3738,7 @@ span {
   height: 520px;
   min-height: 300px;
   border-radius: 50%;
-  background: rgba(211, 84, 255, 0.2);
+  background: rgb(7 2 35 / 90%);
   filter: blur(130px);
   z-index: -1;
 }
@@ -3853,7 +3853,7 @@ span {
   height: 900px;
   min-height: 300px;
   border-radius: 50%;
-  background: rgba(75, 255, 223, 0.09);
+  background: rgb(7 2 35 / 90%);
   filter: blur(272px);
   z-index: -1;
 }
@@ -4097,7 +4097,7 @@ span {
   height: 570px;
   min-height: 300px;
   border-radius: 50%;
-  background: rgba(75, 255, 223, 0.24);
+  background: rgb(7 2 35 / 90%);
   filter: blur(270px);
   z-index: -1;
 }
@@ -4163,7 +4163,7 @@ span {
   height: 900px;
   min-height: 300px;
   border-radius: 50%;
-  background: rgba(75, 169, 255, 0.09);
+  background: rgb(7 2 35 / 90%);
   filter: blur(272px);
   z-index: -1;
 }
@@ -4259,7 +4259,7 @@ span {
   height: 520px;
   min-height: 300px;
   border-radius: 50%;
-  background: rgba(128, 84, 255, 0.2);
+  background: rgb(7 2 35 / 90%);
   filter: blur(130px);
   z-index: -1;
 }
@@ -4467,7 +4467,7 @@ span {
   height: 560px;
   min-height: 300px;
   border-radius: 50%;
-  background: rgba(75, 255, 223, 0.24);
+  background: rgb(7 2 35 / 90%);
   filter: blur(230px);
   z-index: -1;
 }
@@ -4513,7 +4513,7 @@ span {
   height: 830px;
   min-height: 300px;
   border-radius: 50%;
-  background: rgba(255, 255, 255, 0.3764705882);
+  background: rgb(7 2 35 / 90%);
   filter: blur(272px);
   z-index: -1;
 }
@@ -5346,7 +5346,7 @@ span {
   height: 570px;
   min-height: 300px;
   border-radius: 50%;
-  background: rgba(219, 75, 255, 0.24);
+  background: rgb(7 2 35 / 90%);
   filter: blur(272px);
   z-index: -1;
 }
@@ -5782,7 +5782,7 @@ span {
   height: 520px;
   min-height: 300px;
   border-radius: 50%;
-  background: rgba(84, 173, 255, 0.39);
+  background: rgb(7 2 35 / 90%);
   filter: blur(272px);
   z-index: -1;
 }
@@ -5859,7 +5859,7 @@ span {
   height: 520px;
   min-height: 300px;
   border-radius: 50%;
-  background: rgba(84, 173, 255, 0.39);
+  background: rgb(7 2 35 / 90%);
   filter: blur(130px);
   z-index: -1;
 }
@@ -7257,7 +7257,7 @@ span {
   height: 570px;
   min-height: 300px;
   border-radius: 50%;
-  background: rgba(208, 75, 255, 0.54);
+  background: rgb(7 2 35 / 90%);
   filter: blur(272px);
   z-index: -1;
 }
@@ -7688,7 +7688,7 @@ span {
   height: 560px;
   min-height: 300px;
   border-radius: 50%;
-  background: rgba(75, 255, 223, 0.24);
+  background: rgb(7 2 35 / 90%);
   filter: blur(230px);
   z-index: -1;
 }
@@ -7742,7 +7742,7 @@ span {
   height: 570px;
   min-height: 300px;
   border-radius: 50%;
-  background: rgba(219, 75, 255, 0.24);
+  background: rgb(7 2 35 / 90%);
   filter: blur(272px);
   z-index: -1;
 }
@@ -9317,7 +9317,18 @@ span {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  background-color: rgb(37 56 85);
+  background-color: rgb(26, 26, 26);
+  opacity: .7;
+  z-index: -1; /* Ensure the video is behind other content */
+}
+.overlay-section {
+  position: absolute;
+  top: -50%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background: linear-gradient(to bottom, #3498db, #8e44ad);
   opacity: .7;
   z-index: -1; /* Ensure the video is behind other content */
 }
