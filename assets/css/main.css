@@ -101,6 +101,10 @@
   --shadow: 0 0 12px rgba(0, 0, 0, 0.1);
   --shadow-secondary: 0 0 31px rgba(0, 0, 0, 0.1);
 }
+@font-face {
+  font-family: 'electronic2'; /* Choose a name for your font */
+  src: url('/assets/css/v/ZilapBlackStormBlack-6wYD.ttf') format('truetype'); /* Adjust the path to your font file */
+}
 
 /* ==== 
  --------- (2.01) reset styles start ---------
@@ -150,8 +154,8 @@ body::-webkit-scrollbar-button, body::-webkit-scrollbar-thumb {
   height: 100vh;
   overflow: clip;
 }
-.connected-sections{
-  
+body {
+  font-family: 'electronic', sans-serif; /* Use your font in the CSS */
 }
 .my-app {
   position: relative;
@@ -402,6 +406,7 @@ p span {
 
 .title-animation {
   text-transform: capitalize !important;
+  font-family: "electronic2";
 }
 
 .title-animation > div > div:first-child {
@@ -9731,6 +9736,9 @@ ul li:not(.header-list) {
   }
   .gaper-reverse h2{
     text-align: start;
+  }
+  .thumb-right{
+    display: none;
   }
 
 }
