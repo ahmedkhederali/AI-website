@@ -330,6 +330,10 @@ h1 {
   font-size: 30px;
   line-height: 82px;
 }
+.light-title-home{
+  font-size: 72px;
+  line-height: 82px;
+font-weight: 700;}
 
 .light-title-sm {
   font-size: 30px;
@@ -691,13 +695,20 @@ span {
   display: inline-flex;
   align-items: center;
   gap: 12px;
-  padding: 12px 20px;
+  padding: 15px 20px;
   line-height: 1;
-  background-color: rgba(101, 255, 75, 0.1254901961);
+  background-image: linear-gradient(140deg, #11044c 0%, #8f208a 100%);
   color: var(--white);
   border-radius: 10px;
   text-transform: capitalize;
   font-weight: 600;
+  margin-bottom: 10px;
+}
+.wakeb-color1{
+  color: #8f208a;
+}
+.wakeb-color2{
+  color: #1a086d;
 }
 .section__content .sub-title-two {
   color: var(--white);
@@ -1408,6 +1419,7 @@ span {
 }
 .reveal-img img {
   opacity: 0;
+  border-radius: 10px;
 }
 .reveal-img::after {
   content: "";
@@ -1426,6 +1438,10 @@ span {
 }
 .reveal-img-active::after {
   animation: revealImg 1.5s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+}
+.slider-aboutus >div >div >div{
+  background-color: transparent !important;
+  box-shadow: none !important;
 }
 
 @keyframes imgAppear {
@@ -2404,7 +2420,8 @@ span {
   background-color: rgba(0, 0, 0, 0.67);
 }
 
-.home-seven .primary-navbar {
+.home-seven .primary-navbar,
+.primary-navbar-about {
   border-color: rgba(255, 255, 255, 0.05);
   background-color: rgba(255,255,255, 6%) !important;
   backdrop-filter: blur(30px);
@@ -3002,7 +3019,7 @@ span {
 }
 
 .about-banner {
-  padding: 270px 0px 160px;
+  padding: 200px 0px 100px;
   position: relative;
   z-index: 1;
   overflow-x: clip;
@@ -3052,7 +3069,7 @@ span {
   justify-content: center;
   font-size: 50px;
   color: var(--primary-color);
-  background-color: rgba(101, 255, 75, 0.21);
+  background-image: linear-gradient(140deg, #11044c 0%, #8f208a 100%);
   z-index: 1;
 }
 .about-banner .scroll-position-btn img {
@@ -3582,7 +3599,7 @@ span {
 }
 
 .lilu-review {
-  padding-bottom: 310px;
+  padding-bottom: 50px;
 }
 
 /* ==== 
@@ -3791,7 +3808,7 @@ span {
   height: 100%;
   white-space: pre;
   word-break: normal;
-  background-color: var(--primary-color);
+  background-color: #8f208a;
   background-clip: text;
   -webkit-background-clip: text;
   transition: width 0.7s cubic-bezier(0.39, 0.13, 0.55, 0.88);
@@ -8613,6 +8630,11 @@ span {
 
   /*For MObil App*/
 @media only screen and (max-width: 767.98px) {
+  .light-title-home{
+    font-size: 20px;
+    text-align: start !important;
+    line-height: 50px;
+  }
   .footer-alter__content {
     text-align: center;
   }
@@ -9671,10 +9693,19 @@ ul li:not(.header-list) {
   .section__header{
     margin-bottom: 20px;
   }
+  .text-start{
+    text-align: center !important;
+  }
+  .light-title-home{
+    font-size: 56px;
+  }
 }
 @media only screen and (max-width: 767.98px){
   .custom-tabs{
     gap: 24px !important;
+  }
+  .text-start{
+    text-align: start !important;
   }
   .custom-tabs.nav-pills .nav-link{
     padding: 10px 7px 10px 7px !important;
