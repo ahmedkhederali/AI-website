@@ -418,19 +418,19 @@
      * 14. pricing table tab
      * ======================================
      */
-    $(".yearly").hide();
-    $(".yearly-price").on("click", async function () {
-      $(".monthly").hide();
-      $(".yearly").show();
-      $(".price-btn").removeClass("price-btn-active");
-      $(this).addClass("price-btn-active");
-    });
-    $(".monthly-price").on("click", function () {
-      $(".yearly").hide();
-      $(".monthly").show();
-      $(".price-btn").removeClass("price-btn-active");
-      $(this).addClass("price-btn-active");
-    });
+    // $(".yearly").hide();
+    // $(".yearly-price").on("click", async function () {
+    //   $(".monthly").hide();
+    //   $(".yearly").show();
+    //   $(".price-btn").removeClass("price-btn-active");
+    //   $(this).addClass("price-btn-active");
+    // });
+    // $(".monthly-price").on("click", function () {
+    //   $(".yearly").hide();
+    //   $(".monthly").show();
+    //   $(".price-btn").removeClass("price-btn-active");
+    //   $(this).addClass("price-btn-active");
+    // });
 
     /**
      * ======================================
