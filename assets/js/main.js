@@ -418,19 +418,178 @@
      * 14. pricing table tab
      * ======================================
      */
-    // $(".yearly").hide();
-    // $(".yearly-price").on("click", async function () {
-    //   $(".monthly").hide();
-    //   $(".yearly").show();
-    //   $(".price-btn").removeClass("price-btn-active");
-    //   $(this).addClass("price-btn-active");
-    // });
-    // $(".monthly-price").on("click", function () {
-    //   $(".yearly").hide();
-    //   $(".monthly").show();
-    //   $(".price-btn").removeClass("price-btn-active");
-    //   $(this).addClass("price-btn-active");
-    // });
+    $(".yearly").hide();
+    $(".yearly-price").on("click", async function () {
+      $(".monthly").hide();
+      $(".yearly").show();
+      $(".price-btn").removeClass("price-btn-active");
+      $(this).addClass("price-btn-active");
+    });
+    $(".monthly-price").on("click", function () {
+      $(".yearly").hide();
+      $(".monthly").show();
+      $(".price-btn").removeClass("price-btn-active");
+      $(this).addClass("price-btn-active");
+    });
+
+    // 
+
+  
+    const imageUrls1 = [
+      'assets/images/partner/infrastructure partnerships-01.png', 
+      'assets/images/partner/infrastructure partnerships-02.png', 
+      'assets/images/partner/infrastructure partnerships-03.png', 
+      'assets/images/partner/infrastructure partnerships-04.png', 
+      'assets/images/partner/infrastructure partnerships-05.png', 
+      'assets/images/partner/infrastructure partnerships-06.png', 
+      'assets/images/partner/infrastructure partnerships-07.png', 
+      'assets/images/partner/infrastructure partnerships-08.png', 
+      'assets/images/partner/infrastructure partnerships-09.png', 
+      'assets/images/partner/infrastructure partnerships-10.png', 
+      'assets/images/partner/infrastructure partnerships-11.png', 
+      'assets/images/partner/infrastructure partnerships-12.png', 
+      'assets/images/partner/infrastructure partnerships-13.png', 
+      'assets/images/partner/infrastructure partnerships-14.png', 
+      'assets/images/partner/infrastructure partnerships-15.png', 
+      'assets/images/partner/infrastructure partnerships-16.png', 
+      'assets/images/partner/infrastructure partnerships-17.png', 
+      'assets/images/partner/infrastructure partnerships-18.png', 
+      'assets/images/partner/infrastructure partnerships-19.png', 
+      'assets/images/partner/infrastructure partnerships-20.png', 
+      'assets/images/partner/infrastructure partnerships-21.png', 
+      'assets/images/partner/infrastructure partnerships-22.png', 
+      'assets/images/partner/infrastructure partnerships-23.png', 
+      'assets/images/partner/infrastructure partnerships-24.png', 
+      'assets/images/partner/infrastructure partnerships-25.png', 
+      'assets/images/partner/infrastructure partnerships-26.png', 
+      'assets/images/partner/infrastructure partnerships-27.png', 
+      'assets/images/partner/infrastructure partnerships-28.png', 
+      'assets/images/partner/infrastructure partnerships-29.png', 
+      'assets/images/partner/infrastructure partnerships-30.png', 
+
+    ];
+    const imageUrls2 = [
+      'assets/images/partner/security partnerships-01.png', 
+      'assets/images/partner/security partnerships-02.png', 
+      'assets/images/partner/security partnerships-03.png' ,
+      'assets/images/partner/security partnerships-04.png', 
+      'assets/images/partner/security partnerships-05.png', 
+      'assets/images/partner/security partnerships-06.png',
+      'assets/images/partner/security partnerships-07.png', 
+      'assets/images/partner/security partnerships-08.png', 
+      'assets/images/partner/security partnerships-09.png',
+      'assets/images/partner/security partnerships-10.png', 
+      'assets/images/partner/security partnerships-11.png', 
+      'assets/images/partner/security partnerships-12.png',
+      'assets/images/partner/security partnerships-13.png',
+      'assets/images/partner/security partnerships-14.png',
+      'assets/images/partner/security partnerships-15.png',
+      'assets/images/partner/security partnerships-16.png',
+    ];
+    const imageUrls3 = [
+      'assets/images/partner/web technologies-01.png',
+      'assets/images/partner/web technologies-04.png',
+      'assets/images/partner/web technologies-05.png',
+      'assets/images/partner/web technologies-06.png',
+      'assets/images/partner/web technologies-10.png',
+      'assets/images/partner/web technologies-11.png',
+      'assets/images/partner/web technologies-12.png',
+      'assets/images/partner/Group 9325.png', 
+      'assets/images/partner/Group 9331.png', 
+
+    ];
+
+    
+    renderImages(imageUrls1, 'sponsor__slider__tab1');
+    hideAllSlidersExcept('sponsor__slider__tab1');
+
+    document.getElementById('pills-home-tab').addEventListener('click', () => {
+      renderImages(imageUrls1, 'sponsor__slider__tab1');
+      hideAllSlidersExcept('sponsor__slider__tab1');
+    });
+
+    document.getElementById('pills-profile-tab').addEventListener('click', () => {
+      renderImages(imageUrls2, 'sponsor__slider__tab2');
+      hideAllSlidersExcept('sponsor__slider__tab2');
+    });
+
+    document.getElementById('pills-contact-tab').addEventListener('click', () => {
+      renderImages(imageUrls3, 'sponsor__slider__tab3');
+      hideAllSlidersExcept('sponsor__slider__tab3');
+    });
+
+    function renderImages(imageUrls, containerId) {
+      const sliderContainer = document.getElementById(containerId);
+      sliderContainer.innerHTML = '';
+
+      imageUrls.forEach(url => {
+        const imgWrapper = document.createElement('div');
+        imgWrapper.classList.add('sponsor__single', 'text-center');
+
+        const img = document.createElement('img');
+        img.src = url;
+        img.alt = 'Image';
+
+
+        imgWrapper.appendChild(img);
+        sliderContainer.appendChild(imgWrapper);
+      });
+
+      if ($(`#${containerId}`).hasClass('slick-initialized')) {
+        $(`#${containerId}`).slick('unslick');
+      }
+
+
+      $(`#${containerId}`).slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: -8000,
+        speed: 8000,
+        arrows: false,
+        dots: false,
+        pauseOnHover: false,
+        draggable: false,
+        variableWidth: true,
+        cssEase: 'linear',
+        responsive: [
+          {
+            breakpoint: 1200,
+            settings: {
+              slidesToShow: 4,
+            },
+          },
+          {
+            breakpoint: 992,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 1,
+            },
+          },
+          {
+            breakpoint: 576,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1,
+            },
+          },
+        ],
+      });
+    }
+
+    function hideAllSlidersExcept(activeSliderId) {
+      const tabContainer = document.getElementById('tabContainer');
+      const allSliders = tabContainer.querySelectorAll('.sponsor__slider');
+      allSliders.forEach(slider => {
+        if (slider.id === activeSliderId) {
+          slider.style.display = 'block'; 
+        } else {
+          slider.style.display = 'none'; 
+        }
+      });
+    }
+
+    // 
 
     /**
      * ======================================

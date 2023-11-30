@@ -1041,7 +1041,6 @@
                     </p>
                     <div class="section__content-cta nav nav-pills custom-tabs">
                       <button
-                        onclick="handleClick(1)"
                         aria-label="get monthly price"
                         class="price-btn monthly-price price-btn-active nav-link active"
                         id="pills-home-tab"
@@ -1055,7 +1054,6 @@
                         Digital Infrastructure Partnerships
                       </button>
                       <button
-                        onclick="handleClick(2)"
                         aria-label="get annual price"
                         class="price-btn yearly-price nav-link"
                         id="pills-profile-tab"
@@ -1069,7 +1067,6 @@
                         Information Security Partnerships
                       </button>
                       <button
-                        onclick="handleClick(3)"
                         aria-label="get annual price "
                         class="price-btn yearly-price nav-link"
                         id="pills-contact-tab"
@@ -1085,11 +1082,6 @@
                     </div>
                   
 
-                    <div class="sponsor overflow-hidden">
-                      <div class="sponsor__slider sponsor__slider__tab1 " id="sponsor__slider__tab1">
-                      </div>
-                    </div>
-
                    
                     
 
@@ -1098,6 +1090,25 @@
 
                   </div>
 
+                 
+                
+                </div>
+
+                <div id="tabContainer" class="row">
+                  <div class="sponsor overflow-hidden">
+                    <div class="sponsor__slider sponsor__slider__tab1 " id="sponsor__slider__tab1">
+                    </div>
+                  </div>
+
+                  <div class="sponsor overflow-hidden">
+                    <div class="sponsor__slider sponsor__slider__tab2 " id="sponsor__slider__tab2" >
+                    </div>
+                  </div>
+
+                  <div class="sponsor overflow-hidden">
+                    <div class="sponsor__slider sponsor__slider__tab3 " id="sponsor__slider__tab3" >
+                    </div>
+                  </div>
                 </div>
 
 
@@ -2147,199 +2158,7 @@
     <script src="assets/vendor/gsap/ScrollTrigger.min.js"></script>
     <!-- Load the Google Maps JavaScript API -->
 
-<script>
-    const imageUrls1 = [
-      'assets/images/partner/infrastructure partnerships-01.png', 
-      'assets/images/partner/infrastructure partnerships-02.png', 
-      'assets/images/partner/infrastructure partnerships-03.png', 
-      'assets/images/partner/infrastructure partnerships-04.png', 
-      'assets/images/partner/infrastructure partnerships-05.png', 
-      'assets/images/partner/infrastructure partnerships-06.png', 
-      'assets/images/partner/infrastructure partnerships-07.png', 
-      'assets/images/partner/infrastructure partnerships-08.png', 
-      'assets/images/partner/infrastructure partnerships-09.png', 
-      'assets/images/partner/infrastructure partnerships-10.png', 
-      'assets/images/partner/infrastructure partnerships-11.png', 
-      'assets/images/partner/infrastructure partnerships-12.png', 
-      'assets/images/partner/infrastructure partnerships-13.png', 
-      'assets/images/partner/infrastructure partnerships-14.png', 
-      'assets/images/partner/infrastructure partnerships-15.png', 
-      'assets/images/partner/infrastructure partnerships-16.png', 
-      'assets/images/partner/infrastructure partnerships-17.png', 
-      'assets/images/partner/infrastructure partnerships-18.png', 
-      'assets/images/partner/infrastructure partnerships-19.png', 
-      'assets/images/partner/infrastructure partnerships-20.png', 
-      'assets/images/partner/infrastructure partnerships-21.png', 
-      'assets/images/partner/infrastructure partnerships-22.png', 
-      'assets/images/partner/infrastructure partnerships-23.png', 
-      'assets/images/partner/infrastructure partnerships-24.png', 
-      'assets/images/partner/infrastructure partnerships-25.png', 
-      'assets/images/partner/infrastructure partnerships-26.png', 
-      'assets/images/partner/infrastructure partnerships-27.png', 
-      'assets/images/partner/infrastructure partnerships-28.png', 
-      'assets/images/partner/infrastructure partnerships-29.png', 
-      'assets/images/partner/infrastructure partnerships-30.png', 
 
-    ];
-    const imageUrls2 = [
-      'assets/images/partner/security partnerships-01.png', 
-      'assets/images/partner/security partnerships-02.png', 
-      'assets/images/partner/security partnerships-03.png' ,
-      'assets/images/partner/security partnerships-04.png', 
-      'assets/images/partner/security partnerships-05.png', 
-      'assets/images/partner/security partnerships-06.png',
-      'assets/images/partner/security partnerships-07.png', 
-      'assets/images/partner/security partnerships-08.png', 
-      'assets/images/partner/security partnerships-09.png',
-      'assets/images/partner/security partnerships-10.png', 
-      'assets/images/partner/security partnerships-11.png', 
-      'assets/images/partner/security partnerships-12.png',
-      'assets/images/partner/security partnerships-13.png',
-      'assets/images/partner/security partnerships-14.png',
-      'assets/images/partner/security partnerships-15.png',
-      'assets/images/partner/security partnerships-16.png',
-    ];
-    const imageUrls3 = [
-      'assets/images/partner/web technologies-01.png', 
-      'assets/images/partner/web technologies-02.png', 
-      'assets/images/partner/web technologies-03.png', 
-      'assets/images/partner/web technologies-04.png', 
-      'assets/images/partner/web technologies-05.png', 
-      'assets/images/partner/web technologies-06.png', 
-      'assets/images/partner/web technologies-07.png', 
-      'assets/images/partner/web technologies-08.png', 
-      'assets/images/partner/web technologies-09.png', 
-      'assets/images/partner/web technologies-10.png', 
-      'assets/images/partner/web technologies-11.png', 
-      'assets/images/partner/Group 9325.png', 
-      'assets/images/partner/Group 9331.png', 
-
-    ];
-
-    
-
-  let currentImages = imageUrls1; 
-function handleClick(btnId) {
-  if (btnId === 1) {
-    currentImages = imageUrls1;
-  } else if (btnId === 2) {
-    currentImages = imageUrls2;
-  } else if (btnId === 3) {
-    currentImages = imageUrls3;
-  }
-  renderImages(currentImages);
-}
-
-setTimeout(() => {
-  renderImages(imageUrls1)
-},500)
-
-function renderImages(imageUrls) {
-  const sliderContainer = document.getElementById('sponsor__slider__tab1');
-
-  sliderContainer.innerHTML = '';
-
-  imageUrls.forEach(url => {
-    const imgWrapper = document.createElement('div');
-    imgWrapper.classList.add( 'text-center');
-
-    imgWrapper.style.height = '100px'; 
-    imgWrapper.style.width = '180px !important'; 
-    imgWrapper.style.borderRadius = '10px'; 
-    imgWrapper.style.backgroundColor = 'white'; 
-    imgWrapper.style.boxShadow = 'rgba(201, 193, 193, 0.25) 0px 20px 20px'; 
-
-    const img = document.createElement('img');
-    img.src = url;
-    img.alt = 'Image';
-    img.style.width = '100%'; 
-    img.style.height = '100%';
-
-    imgWrapper.appendChild(img);
-    sliderContainer.appendChild(imgWrapper);
-  });
-
-  
-  $('.sponsor__slider').slick('unslick'); 
-  $('.sponsor__slider').slick({
-    slidesToShow: 6,
-    slidesToShow: 6,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 0,
-        speed: 8000,
-        arrows: false,
-        dots: false,
-        pauseOnHover: false,
-        draggable: false,
-        variableWidth: false,
-        cssEase: "linear",
-        responsive: [
-          {
-            breakpoint: 1200,
-            settings: {
-              slidesToShow: 4,
-            },
-          },
-          {
-            breakpoint: 992,
-            settings: {
-              slidesToShow: 3,
-              slidesToScroll: 1,
-            },
-          },
-
-          {
-            breakpoint: 576,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 1,
-            },
-          },
-        ],
-  }); 
-}
-
-$(document).ready(function() {
-  $('.sponsor__slider').slick({
-    slidesToShow: 6,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 0,
-        speed: 8000,
-        arrows: false,
-        dots: false,
-        pauseOnHover: false,
-        draggable: false,
-        variableWidth: false,
-        cssEase: "linear",
-        responsive: [
-          {
-            breakpoint: 1200,
-            settings: {
-              slidesToShow: 4,
-            },
-          },
-          {
-            breakpoint: 992,
-            settings: {
-              slidesToShow: 3,
-              slidesToScroll: 1,
-            },
-          },
-
-          {
-            breakpoint: 576,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 1,
-            },
-          },
-        ],
-  });
-});
-
-    </script>
 
 
   </body>

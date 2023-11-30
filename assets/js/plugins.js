@@ -309,96 +309,95 @@
     //     ],
     //   });
     
-      // $(".sponsor__slider__tab1")
-      // .not(".slick-initialized")
-      // .slick({
-      //   slidesToShow: 6,
-      //   slidesToScroll: 1,
-      //   autoplay: true,
-      //   autoplaySpeed: 0,
-      //   speed: 8000,
-      //   arrows: false,
-      //   dots: false,
-      //   pauseOnHover: false,
-      //   draggable: false,
-      //   variableWidth: false,
-      //   cssEase: "linear",
-      //   responsive: [
-      //     {
-      //       breakpoint: 1200,
-      //       settings: {
-      //         slidesToShow: 4,
-      //       },
-      //     },
-      //     {
-      //       breakpoint: 992,
-      //       settings: {
-      //         slidesToShow: 3,
-      //         slidesToScroll: 1,
-      //       },
-      //     },
+    //   $(".sponsor__slider__tab2")
+    //   .not(".slick-initialized")
+    //   .slick({
+    //     slidesToShow: 6,
+    //     slidesToScroll: 1,
+    //     autoplay: true,
+    //     autoplaySpeed: 0,
+    //     speed: 8000,
+    //     arrows: false,
+    //     dots: false,
+    //     pauseOnHover: false,
+    //     draggable: false,
+    //     variableWidth: false,
+    //     cssEase: "linear",
+    //     responsive: [
+    //       {
+    //         breakpoint: 1200,
+    //         settings: {
+    //           slidesToShow: 4,
+    //         },
+    //       },
+    //       {
+    //         breakpoint: 992,
+    //         settings: {
+    //           slidesToShow: 3,
+    //           slidesToScroll: 1,
+    //         },
+    //       },
 
-      //     {
-      //       breakpoint: 576,
-      //       settings: {
-      //         slidesToShow: 2,
-      //         slidesToScroll: 1,
-      //       },
-      //     },
-      //   ],
-      // });
-      // $(".sponsor__slider__tab3")
-      // .not(".slick-initialized")
-      // .slick({
-      //   slidesToShow: 6,
-      //   slidesToScroll: 1,
-      //   autoplay: true,
-      //   autoplaySpeed: 0,
-      //   speed: 8000,
-      //   arrows: false,
-      //   dots: false,
-      //   pauseOnHover: false,
-      //   draggable: false,
-      //   variableWidth: false,
-      //   cssEase: "linear",
-      //   responsive: [
-      //     {
-      //       breakpoint: 1200,
-      //       settings: {
-      //         slidesToShow: 4,
-      //       },
-      //     },
-      //     {
-      //       breakpoint: 992,
-      //       settings: {
-      //         slidesToShow: 3,
-      //         slidesToScroll: 1,
-      //       },
-      //     },
+    //       {
+    //         breakpoint: 576,
+    //         settings: {
+    //           slidesToShow: 2,
+    //           slidesToScroll: 1,
+    //         },
+    //       },
+    //     ],
+    //   });
+    //   $(".sponsor__slider__tab3")
+    //   .not(".slick-initialized")
+    //   .slick({
+    //     slidesToShow: 6,
+    //     slidesToScroll: 1,
+    //     autoplay: true,
+    //     autoplaySpeed: 0,
+    //     speed: 8000,
+    //     arrows: false,
+    //     dots: false,
+    //     pauseOnHover: false,
+    //     draggable: false,
+    //     variableWidth: false,
+    //     cssEase: "linear",
+    //     responsive: [
+    //       {
+    //         breakpoint: 1200,
+    //         settings: {
+    //           slidesToShow: 4,
+    //         },
+    //       },
+    //       {
+    //         breakpoint: 992,
+    //         settings: {
+    //           slidesToShow: 3,
+    //           slidesToScroll: 1,
+    //         },
+    //       },
 
-      //     {
-      //       breakpoint: 576,
-      //       settings: {
-      //         slidesToShow: 2,
-      //         slidesToScroll: 1,
-      //       },
-      //     },
-      //   ],
-      // });
-    
+    //       {
+    //         breakpoint: 576,
+    //         settings: {
+    //           slidesToShow: 2,
+    //           slidesToScroll: 1,
+    //         },
+    //       },
+    //     ],
+    //   });
       $(".sponsor__slider__tab4")
       .not(".slick-initialized")
       .slick({
         slidesToShow: 6,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 0,
+        autoplaySpeed: -8000,
         speed: 8000,
         arrows: false,
         dots: false,
         pauseOnHover: false,
         draggable: false,
-        variableWidth: false,
+        variableWidth: true,
         cssEase: "linear",
         responsive: [
           {
