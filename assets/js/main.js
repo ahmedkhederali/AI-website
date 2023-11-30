@@ -434,74 +434,191 @@
 
     // 
 
-  
     const imageUrls1 = [
-      'assets/images/partner/infrastructure partnerships-01.png', 
-      'assets/images/partner/infrastructure partnerships-02.png', 
-      'assets/images/partner/infrastructure partnerships-03.png', 
-      'assets/images/partner/infrastructure partnerships-04.png', 
-      'assets/images/partner/infrastructure partnerships-05.png', 
-      'assets/images/partner/infrastructure partnerships-06.png', 
-      'assets/images/partner/infrastructure partnerships-07.png', 
-      'assets/images/partner/infrastructure partnerships-08.png', 
-      'assets/images/partner/infrastructure partnerships-09.png', 
-      'assets/images/partner/infrastructure partnerships-10.png', 
-      'assets/images/partner/infrastructure partnerships-11.png', 
-      'assets/images/partner/infrastructure partnerships-12.png', 
-      'assets/images/partner/infrastructure partnerships-13.png', 
-      'assets/images/partner/infrastructure partnerships-14.png', 
-      'assets/images/partner/infrastructure partnerships-15.png', 
-      'assets/images/partner/infrastructure partnerships-16.png', 
-      'assets/images/partner/infrastructure partnerships-17.png', 
-      'assets/images/partner/infrastructure partnerships-18.png', 
-      'assets/images/partner/infrastructure partnerships-19.png', 
-      'assets/images/partner/infrastructure partnerships-20.png', 
-      'assets/images/partner/infrastructure partnerships-21.png', 
-      'assets/images/partner/infrastructure partnerships-22.png', 
-      'assets/images/partner/infrastructure partnerships-23.png', 
-      'assets/images/partner/infrastructure partnerships-24.png', 
-      'assets/images/partner/infrastructure partnerships-25.png', 
-      'assets/images/partner/infrastructure partnerships-26.png', 
-      'assets/images/partner/infrastructure partnerships-27.png', 
-      'assets/images/partner/infrastructure partnerships-28.png', 
-      'assets/images/partner/infrastructure partnerships-29.png', 
-      'assets/images/partner/infrastructure partnerships-30.png', 
-
+      'assets/images/Partner/Digital/Back White/1.png', 
+      'assets/images/Partner/Digital/Back White/2.png', 
+      'assets/images/Partner/Digital/Back White/3.png', 
+      'assets/images/Partner/Digital/Back White/4.png', 
+      'assets/images/Partner/Digital/Back White/5.png', 
+      'assets/images/Partner/Digital/Back White/6.png', 
+      'assets/images/Partner/Digital/Back White/7.png', 
+      'assets/images/Partner/Digital/Back White/8.png', 
+      'assets/images/Partner/Digital/Back White/9.png', 
+      'assets/images/Partner/Digital/Back White/10.png', 
+      'assets/images/Partner/Digital/Back White/11.png', 
+      'assets/images/Partner/Digital/Back White/12.png', 
+      'assets/images/Partner/Digital/Back White/13.png', 
+      'assets/images/Partner/Digital/Back White/14.png', 
+      'assets/images/Partner/Digital/Back White/15.png', 
+      'assets/images/Partner/Digital/Back White/16.png', 
+      'assets/images/Partner/Digital/Back White/17.png', 
+      'assets/images/Partner/Digital/Back White/18.png', 
+      'assets/images/Partner/Digital/Back White/19.png', 
+      'assets/images/Partner/Digital/Back White/20.png', 
+      'assets/images/Partner/Digital/Back White/21.png', 
+      'assets/images/Partner/Digital/Back White/22.png', 
+      'assets/images/Partner/Digital/Back White/23.png', 
+      'assets/images/Partner/Digital/Back White/24.png', 
+      'assets/images/Partner/Digital/Back White/25.png', 
+      'assets/images/Partner/Digital/Back White/26.png', 
+      'assets/images/Partner/Digital/Back White/27.png', 
+      'assets/images/Partner/Digital/Back White/28.png', 
+      'assets/images/Partner/Digital/Back White/29.png', 
+      'assets/images/Partner/Digital/Back White/30.png', 
+    ];
+    
+    const imageUrls1_2 = [
+      'assets/images/Partner/Digital/White/1.png', 
+      'assets/images/Partner/Digital/White/2.png', 
+      'assets/images/Partner/Digital/White/3.png', 
+      'assets/images/Partner/Digital/White/4.png', 
+      'assets/images/Partner/Digital/White/5.png', 
+      'assets/images/Partner/Digital/White/6.png', 
+      'assets/images/Partner/Digital/White/7.png', 
+      'assets/images/Partner/Digital/White/8.png', 
+      'assets/images/Partner/Digital/White/9.png', 
+      'assets/images/Partner/Digital/White/10.png', 
+      'assets/images/Partner/Digital/White/11.png', 
+      'assets/images/Partner/Digital/White/12.png', 
+      'assets/images/Partner/Digital/White/13.png', 
+      'assets/images/Partner/Digital/White/14.png', 
+      'assets/images/Partner/Digital/White/15.png', 
+      'assets/images/Partner/Digital/White/16.png', 
+      'assets/images/Partner/Digital/White/17.png', 
+      'assets/images/Partner/Digital/White/18.png', 
+      'assets/images/Partner/Digital/White/19.png', 
+      'assets/images/Partner/Digital/White/20.png', 
+      'assets/images/Partner/Digital/White/21.png', 
+      'assets/images/Partner/Digital/White/22.png', 
+      'assets/images/Partner/Digital/White/23.png', 
+      'assets/images/Partner/Digital/White/24.png', 
+      'assets/images/Partner/Digital/White/25.png', 
+      'assets/images/Partner/Digital/White/26.png', 
+      'assets/images/Partner/Digital/White/27.png', 
+      'assets/images/Partner/Digital/White/28.png', 
+      'assets/images/Partner/Digital/White/29.png', 
+      'assets/images/Partner/Digital/White/30.png', 
     ];
     const imageUrls2 = [
-      'assets/images/partner/security partnerships-01.png', 
-      'assets/images/partner/security partnerships-02.png', 
-      'assets/images/partner/security partnerships-03.png' ,
-      'assets/images/partner/security partnerships-04.png', 
-      'assets/images/partner/security partnerships-05.png', 
-      'assets/images/partner/security partnerships-06.png',
-      'assets/images/partner/security partnerships-07.png', 
-      'assets/images/partner/security partnerships-08.png', 
-      'assets/images/partner/security partnerships-09.png',
-      'assets/images/partner/security partnerships-10.png', 
-      'assets/images/partner/security partnerships-11.png', 
-      'assets/images/partner/security partnerships-12.png',
-      'assets/images/partner/security partnerships-13.png',
-      'assets/images/partner/security partnerships-14.png',
-      'assets/images/partner/security partnerships-15.png',
-      'assets/images/partner/security partnerships-16.png',
+      'assets/images/Partner/Information/White Square/1.png', 
+      'assets/images/Partner/Information/White Square/2.png', 
+      'assets/images/Partner/Information/White Square/3.png', 
+      'assets/images/Partner/Information/White Square/4.png', 
+      'assets/images/Partner/Information/White Square/5.png', 
+      'assets/images/Partner/Information/White Square/6.png', 
+      'assets/images/Partner/Information/White Square/7.png', 
+      'assets/images/Partner/Information/White Square/8.png', 
+      'assets/images/Partner/Information/White Square/9.png', 
+      'assets/images/Partner/Information/White Square/10.png', 
+      'assets/images/Partner/Information/White Square/11.png', 
+      'assets/images/Partner/Information/White Square/12.png', 
+      'assets/images/Partner/Information/White Square/13.png', 
+      'assets/images/Partner/Information/White Square/14.png', 
+      'assets/images/Partner/Information/White Square/15.png', 
+      'assets/images/Partner/Information/White Square/16.png', 
+
+    ];
+    const imageUrls2_2 = [
+      'assets/images/Partner/Information/White/1.png', 
+      'assets/images/Partner/Information/White/2.png', 
+      'assets/images/Partner/Information/White/3.png', 
+      'assets/images/Partner/Information/White/4.png', 
+      'assets/images/Partner/Information/White/5.png', 
+      'assets/images/Partner/Information/White/6.png', 
+      'assets/images/Partner/Information/White/7.png', 
+      'assets/images/Partner/Information/White/8.png', 
+      'assets/images/Partner/Information/White/9.png', 
+      'assets/images/Partner/Information/White/10.png', 
+      'assets/images/Partner/Information/White/11.png', 
+      'assets/images/Partner/Information/White/12.png', 
+      'assets/images/Partner/Information/White/13.png', 
+      'assets/images/Partner/Information/White/14.png', 
+      'assets/images/Partner/Information/White/15.png', 
+      'assets/images/Partner/Information/White/16.png', 
+
     ];
     const imageUrls3 = [
-      'assets/images/partner/web technologies-01.png',
-      'assets/images/partner/web technologies-04.png',
-      'assets/images/partner/web technologies-05.png',
-      'assets/images/partner/web technologies-06.png',
-      'assets/images/partner/web technologies-10.png',
-      'assets/images/partner/web technologies-11.png',
-      'assets/images/partner/web technologies-12.png',
-      'assets/images/partner/Group 9325.png', 
-      'assets/images/partner/Group 9331.png', 
+      'assets/images/Partner/Technology/Back White/1.png',
+      'assets/images/Partner/Technology/Back White/2.png',
+      'assets/images/Partner/Technology/Back White/3.png',
+      'assets/images/Partner/Technology/Back White/4.png',
+      'assets/images/Partner/Technology/Back White/5.png',
+      'assets/images/Partner/Technology/Back White/6.png',
+      'assets/images/Partner/Technology/Back White/7.png',
+      'assets/images/Partner/Technology/Back White/8.png',
+      'assets/images/Partner/Technology/Back White/9.png',
+      'assets/images/Partner/Technology/Back White/10.png',
+      'assets/images/Partner/Technology/Back White/11.png',
+      'assets/images/Partner/Technology/Back White/12.png',
+    ];
+    const imageUrls3_2 = [
+      'assets/images/Partner/Technology/White/1.png',
+      'assets/images/Partner/Technology/White/2.png',
+      'assets/images/Partner/Technology/White/3.png',
+      'assets/images/Partner/Technology/White/4.png',
+      'assets/images/Partner/Technology/White/5.png',
+      'assets/images/Partner/Technology/White/6.png',
+      'assets/images/Partner/Technology/White/7.png',
+      'assets/images/Partner/Technology/White/8.png',
+      'assets/images/Partner/Technology/White/9.png',
+      'assets/images/Partner/Technology/White/10.png',
+      'assets/images/Partner/Technology/White/11.png',
+      'assets/images/Partner/Technology/White/12.png',
+    ];
 
+    const imageUrls4 = [
+      'assets/images/Clients/Back White/1.png',
+      'assets/images/Clients/Back White/2.png',
+      'assets/images/Clients/Back White/3.png',
+      'assets/images/Clients/Back White/4.png',
+      'assets/images/Clients/Back White/5.png',
+      'assets/images/Clients/Back White/6.png',
+      'assets/images/Clients/Back White/7.png',
+      'assets/images/Clients/Back White/8.png',
+      'assets/images/Clients/Back White/9.png',
+      'assets/images/Clients/Back White/10.png',
+      'assets/images/Clients/Back White/11.png',
+      'assets/images/Clients/Back White/12.png',
+      'assets/images/Clients/Back White/13.png',
+      'assets/images/Clients/Back White/14.png',
+      'assets/images/Clients/Back White/15.png',
+      'assets/images/Clients/Back White/16.png',
+      'assets/images/Clients/Back White/17.png',
+      'assets/images/Clients/Back White/18.png',
+      'assets/images/Clients/Back White/19.png',
+      'assets/images/Clients/Back White/20.png',
+      'assets/images/Clients/Back White/21.png',
+    ];
+
+    const imageUrls4_2 = [
+      'assets/images/Clients/White/1.png',
+      'assets/images/Clients/White/2.png',
+      'assets/images/Clients/White/3.png',
+      'assets/images/Clients/White/4.png',
+      'assets/images/Clients/White/5.png',
+      'assets/images/Clients/White/6.png',
+      'assets/images/Clients/White/7.png',
+      'assets/images/Clients/White/8.png',
+      'assets/images/Clients/White/9.png',
+      'assets/images/Clients/White/10.png',
+      'assets/images/Clients/White/11.png',
+      'assets/images/Clients/White/12.png',
+      'assets/images/Clients/White/13.png',
+      'assets/images/Clients/White/14.png',
+      'assets/images/Clients/White/15.png',
+      'assets/images/Clients/White/16.png',
+      'assets/images/Clients/White/17.png',
+      'assets/images/Clients/White/18.png',
+      'assets/images/Clients/White/19.png',
+      'assets/images/Clients/White/20.png',
+      'assets/images/Clients/White/21.png',
     ];
 
     
     renderImages(imageUrls1, 'sponsor__slider__tab1');
     hideAllSlidersExcept('sponsor__slider__tab1');
+
+    renderImages(imageUrls4, 'sponsor__slider__tab4');
 
     document.getElementById('pills-home-tab').addEventListener('click', () => {
       renderImages(imageUrls1, 'sponsor__slider__tab1');
@@ -520,7 +637,9 @@
 
     function renderImages(imageUrls, containerId) {
       const sliderContainer = document.getElementById(containerId);
-      sliderContainer.innerHTML = '';
+      if(sliderContainer && sliderContainer.innerHTML) {
+        sliderContainer.innerHTML = '';
+      }
 
       imageUrls.forEach(url => {
         const imgWrapper = document.createElement('div');
@@ -529,6 +648,8 @@
         const img = document.createElement('img');
         img.src = url;
         img.alt = 'Image';
+        img.style.width = '100%';
+        img.style.height = '100%';
 
 
         imgWrapper.appendChild(img);
@@ -589,7 +710,58 @@
       });
     }
 
-    // 
+
+
+const originalImageArrays = [imageUrls1, imageUrls2, imageUrls3];
+
+document.querySelectorAll('.partaner_listiners .sponsor__slider').forEach((slider, index) => {
+  const originalImages = originalImageArrays[index];
+ 
+  slider.addEventListener('mouseenter', function() {
+    if (index === 0) {
+      renderImages(imageUrls1_2, 'sponsor__slider__tab1'); 
+    } else if (index === 1) {
+      renderImages(imageUrls2_2, 'sponsor__slider__tab2'); 
+    } else if (index === 2) {
+      renderImages(imageUrls3_2, 'sponsor__slider__tab3'); 
+    }
+
+    const sponsorSingleItems = document.querySelectorAll(`.sponsor__slider__tab${index+1} .sponsor__single` );
+    sponsorSingleItems.forEach(item => {
+      item.style.backgroundColor = '#000';
+    });
+
+  });
+  
+
+  slider.addEventListener('mouseleave', function() {
+    renderImages(originalImages, `sponsor__slider__tab${index + 1}`); 
+    const sponsorSingleItems = document.querySelectorAll(`.sponsor__slider__tab${index+1} .sponsor__single`);
+    sponsorSingleItems.forEach(item => {
+      item.style.backgroundColor = '#fff';
+    });
+  });
+});
+
+
+document.querySelectorAll('.clients_slider .sponsor__slider').forEach((slider, index) => {
+  slider.addEventListener('mouseenter', function() {
+      renderImages(imageUrls4_2, 'sponsor__slider__tab4'); 
+      const sponsorSingleItems = document.querySelectorAll(`.sponsor__slider__tab4 .sponsor__single` );
+      sponsorSingleItems.forEach(item => {
+        item.style.backgroundColor = '#000';
+      });
+  });
+
+  slider.addEventListener('mouseleave', function() {
+    renderImages(imageUrls4, `sponsor__slider__tab4`); 
+    const sponsorSingleItems = document.querySelectorAll(`.sponsor__slider__tab4 .sponsor__single`);
+    sponsorSingleItems.forEach(item => {
+      item.style.backgroundColor = '#fff';
+    });
+  });
+});
+
 
     /**
      * ======================================
@@ -837,9 +1009,282 @@
         }
       }
 
+      if ($(".h-s-case").length > 0) {
+        if (device_width >= 768) {
+          var tl = gsap.timeline({
+            scrollTrigger: {
+              trigger: ".h-s-case",
+              start: "top top",
+              end: "+=20%",
+              scrub: 1,
+              pin: false,
+            },
+          });
+          tl.to(".soluation-container h2", {
+            y: "590px",
+            scale: 1,
+            zIndex: -1,
+            opacity: "0.2",
+            duration: 3,
+          });
+          tl.to(
+            ".soluation-container soluation-text",
+            {
+              scale: 1.3,
+              duration: 2,
+            },
+            0
+          );
+          tl.to(
+            ".soluation-text",
+            {
+              y: "-500px",
+              duration: 2,
+            },
+            0
+          );
+          tl.to(
+            ".h-s-case-wrapper",
+            {
+              y: "-300px",
+              duration: 1,
+            },
+            0
+          );
+       
+        }
+      }
 
+      if ($(".craft-alt").length > 0) { 
+        if (device_width >= 768) {
+          var tl = gsap.timeline({
+            scrollTrigger: {
+              trigger: ".craft-alt",
+              start: "top top",
+              end: "+=20%",
+              scrub: 1,
+              pin: false,
+            },
+          });
+          tl.to(".about__container h2", {
+            y: "300px",
+            scale: 1,
+            zIndex: -1,
+            opacity: "0.2",
+            duration: 3,
+          });
+          tl.to(
+            ".about__container about__text",
+            {
+              scale: 1.3,
+              duration: 2,
+            },
+            0
+          );
+          tl.to(
+            ".about__text",
+            {
+              y: "-200",
+              duration: 2,
+            },
+            0
+          );
+          tl.to(
+            ".about__container .section__content-cta",
+            {
+              y: "-200px",
+              duration: 2,
+            },
+            0
+          );
+       
+        }
+      }
 
+      if ($(".h-s-case-alter").length > 0) {
+        if (device_width >= 768) {
+          var tl = gsap.timeline({
+            scrollTrigger: {
+              trigger: ".h-s-case-alter",
+              start: "top top",
+              end: "+=20%",
+              scrub: 1,
+              pin: false,
+            },
+          });
+          tl.to(".service__container h2", {
+            y: "490px",
+            scale: 1.5,
+            zIndex: -1,
+            opacity: "0.2",
+            duration: 3,
+          });
+          
+       
+        }
+      }
 
+      if ($(".pricing").length > 0) {
+        if (device_width >= 768) {
+          var tl = gsap.timeline({
+            scrollTrigger: {
+              trigger: ".pricing",
+              start: "top top",
+              end: "+=20%",
+              scrub: 1,
+              pin: false,
+            },
+          });
+          tl.to(".partaner__container h2", {
+            y: "490px",
+            scale: 1,
+            zIndex: -1,
+            opacity: "0.2",
+            duration: 3,
+          });
+          tl.to(
+            ".partaner__container p",
+            {
+              scale: 1.3,
+              duration: 2,
+            },
+            0
+          );
+          tl.to(
+            " .partaner__container p ",
+            {
+              y: "-200px",
+              duration: 2,
+            },
+            0
+          );
+          tl.to(
+            ".section__content-cta",
+            {
+              y: "-170px",
+              duration: 2,
+            },
+            0
+          );
+          tl.to(
+            ".partaner_sliders",
+            {
+              y: "-170px",
+              duration: 2,
+            },
+            0
+          );
+       
+        }
+      }
+
+      if ($(".h-empower").length > 0) {
+        if (device_width >= 768) {
+          var tl = gsap.timeline({
+            scrollTrigger: {
+              trigger: ".h-empower",
+              start: "top top",
+              end: "+=20%",
+              scrub: 1,
+              pin: false,
+            },
+          });
+          tl.to(".clients__container h2", {
+            y: "490px",
+            scale: 1,
+            zIndex: -1,
+            opacity: "0.2",
+            duration: 3,
+          });
+          tl.to(
+            ".clients__container p",
+            {
+              scale: 1.3,
+              duration: 2,
+            },
+            0
+          );
+          tl.to(
+            " .clients__container p ",
+            {
+              y: "-600px",
+              duration: 2,
+            },
+            0
+          );
+          tl.to(
+            ".clients_slider",
+            {
+              y: "-360px",
+              duration: 2,
+            },
+            0
+          );
+      
+        }
+      }
+
+      if ($(".blog").length > 0) {
+        if (device_width >= 768) {
+          var tl = gsap.timeline({
+            scrollTrigger: {
+              trigger: ".blog",
+              start: "top top",
+              end: "+=20%",
+              scrub: 1,
+              pin: false,
+            },
+          });
+          tl.to(".blog__container h2", {
+            y: "490px",
+            scale: 1,
+            zIndex: -1,
+            opacity: "0.2",
+            duration: 3,
+          });
+          tl.to(
+            ".blog__container p",
+            {
+              scale: 1.3,
+              duration: 2,
+            },
+            0
+          );
+          tl.to(
+            " .blog__container p ",
+            {
+              y: "-450px",
+              duration: 2,
+            },
+            0
+          );
+          tl.to(
+            ".view_more view_more-sub",
+            {
+              scale: 1.3,
+              duration: 2,
+            },
+            0
+          );
+          tl.to(
+            ".view_more",
+            {
+              y: "-450px",
+              duration: 1,
+            },
+            0
+          );
+          tl.to(
+            ".news__container2",
+            {
+              y: "-500px",
+              duration: 1,
+            },
+            0
+          );
+      
+        }
+      }
 
   });
 })(jQuery);
