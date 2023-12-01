@@ -1067,7 +1067,7 @@ reapplyHoverEvents();
           tl.to(
             ".h-s-case-wrapper",
             {
-              y: "-300px",
+              y: "0px",
               duration: 1,
             },
             0
@@ -1174,7 +1174,7 @@ reapplyHoverEvents();
           tl.to(
             " .partaner__container p ",
             {
-              y: "-200px",
+              y: "0px",
               duration: 2,
             },
             0
@@ -1182,19 +1182,12 @@ reapplyHoverEvents();
           tl.to(
             ".section__content-cta",
             {
-              y: "-170px",
+              y: "0px",
               duration: 2,
             },
             0
           );
-          tl.to(
-            ".partaner_sliders",
-            {
-              y: "-170px",
-              duration: 2,
-            },
-            0
-          );
+          
        
         }
       }
@@ -1211,7 +1204,7 @@ reapplyHoverEvents();
             },
           });
           tl.to(".clients__container h2", {
-            y: "490px",
+            y: "380px",
             scale: 1,
             zIndex: -1,
             opacity: "0.2",
@@ -1228,7 +1221,7 @@ reapplyHoverEvents();
           tl.to(
             " .clients__container p ",
             {
-              y: "-600px",
+              y: "0px",
               duration: 2,
             },
             0
@@ -1236,7 +1229,7 @@ reapplyHoverEvents();
           tl.to(
             ".clients_slider",
             {
-              y: "-360px",
+              y: "0px",
               duration: 2,
             },
             0
@@ -1290,7 +1283,7 @@ reapplyHoverEvents();
           tl.to(
             ".view_more",
             {
-              y: "-450px",
+              y: "0px",
               duration: 1,
             },
             0
@@ -1298,7 +1291,7 @@ reapplyHoverEvents();
           tl.to(
             ".news__container2",
             {
-              y: "-500px",
+              y: "0px",
               duration: 1,
             },
             0
