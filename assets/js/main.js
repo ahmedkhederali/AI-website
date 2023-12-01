@@ -167,7 +167,7 @@
 
   // Pause the video and show the overlay on video click
   $(".videoInMobile").click(function () {
-    debugger
+    
       if (!$(this).hasClass("paused")) {
           $(this).addClass("paused");
           $(this).attr("src", $(this).attr("src").replace("&autoplay=1", ""));
@@ -767,7 +767,7 @@ reapplyHoverEvents();
 
     document.querySelectorAll('.clients_slider .sponsor__slider .sponsor__single').forEach((slider, index) => {
       slider.addEventListener('mouseenter', function(event) {
-          debugger
+          
           event.target.style.backgroundColor = "#fff";
           let hoveredImage = event.target.querySelector('img'); 
           let newSrc = hoveredImage.src.replace('/White/', '/BackWhite/');
