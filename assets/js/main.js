@@ -455,40 +455,40 @@
 
     // 
 
-    const imageUrls1 = [
-      'assets/images/Partner/Digital/Back White/1.png', 
-      'assets/images/Partner/Digital/Back White/2.png', 
-      'assets/images/Partner/Digital/Back White/3.png', 
-      'assets/images/Partner/Digital/Back White/4.png', 
-      'assets/images/Partner/Digital/Back White/5.png', 
-      'assets/images/Partner/Digital/Back White/6.png', 
-      'assets/images/Partner/Digital/Back White/7.png', 
-      'assets/images/Partner/Digital/Back White/8.png', 
-      'assets/images/Partner/Digital/Back White/9.png', 
-      'assets/images/Partner/Digital/Back White/10.png', 
-      'assets/images/Partner/Digital/Back White/11.png', 
-      'assets/images/Partner/Digital/Back White/12.png', 
-      'assets/images/Partner/Digital/Back White/13.png', 
-      'assets/images/Partner/Digital/Back White/14.png', 
-      'assets/images/Partner/Digital/Back White/15.png', 
-      'assets/images/Partner/Digital/Back White/16.png', 
-      'assets/images/Partner/Digital/Back White/17.png', 
-      'assets/images/Partner/Digital/Back White/18.png', 
-      'assets/images/Partner/Digital/Back White/19.png', 
-      'assets/images/Partner/Digital/Back White/20.png', 
-      'assets/images/Partner/Digital/Back White/21.png', 
-      'assets/images/Partner/Digital/Back White/22.png', 
-      'assets/images/Partner/Digital/Back White/23.png', 
-      'assets/images/Partner/Digital/Back White/24.png', 
-      'assets/images/Partner/Digital/Back White/25.png', 
-      'assets/images/Partner/Digital/Back White/26.png', 
-      'assets/images/Partner/Digital/Back White/27.png', 
-      'assets/images/Partner/Digital/Back White/28.png', 
-      'assets/images/Partner/Digital/Back White/29.png', 
-      'assets/images/Partner/Digital/Back White/30.png', 
+    const imageUrls1_2 = [
+      'assets/images/Partner/Digital/BackWhite/1.png', 
+      'assets/images/Partner/Digital/BackWhite/2.png', 
+      'assets/images/Partner/Digital/BackWhite/3.png', 
+      'assets/images/Partner/Digital/BackWhite/4.png', 
+      'assets/images/Partner/Digital/BackWhite/5.png', 
+      'assets/images/Partner/Digital/BackWhite/6.png', 
+      'assets/images/Partner/Digital/BackWhite/7.png', 
+      'assets/images/Partner/Digital/BackWhite/8.png', 
+      'assets/images/Partner/Digital/BackWhite/9.png', 
+      'assets/images/Partner/Digital/BackWhite/10.png', 
+      'assets/images/Partner/Digital/BackWhite/11.png', 
+      'assets/images/Partner/Digital/BackWhite/12.png', 
+      'assets/images/Partner/Digital/BackWhite/13.png', 
+      'assets/images/Partner/Digital/BackWhite/14.png', 
+      'assets/images/Partner/Digital/BackWhite/15.png', 
+      'assets/images/Partner/Digital/BackWhite/16.png', 
+      'assets/images/Partner/Digital/BackWhite/17.png', 
+      'assets/images/Partner/Digital/BackWhite/18.png', 
+      'assets/images/Partner/Digital/BackWhite/19.png', 
+      'assets/images/Partner/Digital/BackWhite/20.png', 
+      'assets/images/Partner/Digital/BackWhite/21.png', 
+      'assets/images/Partner/Digital/BackWhite/22.png', 
+      'assets/images/Partner/Digital/BackWhite/23.png', 
+      'assets/images/Partner/Digital/BackWhite/24.png', 
+      'assets/images/Partner/Digital/BackWhite/25.png', 
+      'assets/images/Partner/Digital/BackWhite/26.png', 
+      'assets/images/Partner/Digital/BackWhite/27.png', 
+      'assets/images/Partner/Digital/BackWhite/28.png', 
+      'assets/images/Partner/Digital/BackWhite/29.png', 
+      'assets/images/Partner/Digital/BackWhite/30.png', 
     ];
     
-    const imageUrls1_2 = [
+    const imageUrls1 = [
       'assets/images/Partner/Digital/White/1.png', 
       'assets/images/Partner/Digital/White/2.png', 
       'assets/images/Partner/Digital/White/3.png', 
@@ -520,26 +520,26 @@
       'assets/images/Partner/Digital/White/29.png', 
       'assets/images/Partner/Digital/White/30.png', 
     ];
-    const imageUrls2 = [
-      'assets/images/Partner/Information/White Square/1.png', 
-      'assets/images/Partner/Information/White Square/2.png', 
-      'assets/images/Partner/Information/White Square/3.png', 
-      'assets/images/Partner/Information/White Square/4.png', 
-      'assets/images/Partner/Information/White Square/5.png', 
-      'assets/images/Partner/Information/White Square/6.png', 
-      'assets/images/Partner/Information/White Square/7.png', 
-      'assets/images/Partner/Information/White Square/8.png', 
-      'assets/images/Partner/Information/White Square/9.png', 
-      'assets/images/Partner/Information/White Square/10.png', 
-      'assets/images/Partner/Information/White Square/11.png', 
-      'assets/images/Partner/Information/White Square/12.png', 
-      'assets/images/Partner/Information/White Square/13.png', 
-      'assets/images/Partner/Information/White Square/14.png', 
-      'assets/images/Partner/Information/White Square/15.png', 
-      'assets/images/Partner/Information/White Square/16.png', 
+    const imageUrls2_2 = [
+      'assets/images/Partner/Information/BackWhite/1.png', 
+      'assets/images/Partner/Information/BackWhite/2.png', 
+      'assets/images/Partner/Information/BackWhite/3.png', 
+      'assets/images/Partner/Information/BackWhite/4.png', 
+      'assets/images/Partner/Information/BackWhite/5.png', 
+      'assets/images/Partner/Information/BackWhite/6.png', 
+      'assets/images/Partner/Information/BackWhite/7.png', 
+      'assets/images/Partner/Information/BackWhite/8.png', 
+      'assets/images/Partner/Information/BackWhite/9.png', 
+      'assets/images/Partner/Information/BackWhite/10.png', 
+      'assets/images/Partner/Information/BackWhite/11.png', 
+      'assets/images/Partner/Information/BackWhite/12.png', 
+      'assets/images/Partner/Information/BackWhite/13.png', 
+      'assets/images/Partner/Information/BackWhite/14.png', 
+      'assets/images/Partner/Information/BackWhite/15.png', 
+      'assets/images/Partner/Information/BackWhite/16.png', 
 
     ];
-    const imageUrls2_2 = [
+    const imageUrls2 = [
       'assets/images/Partner/Information/White/1.png', 
       'assets/images/Partner/Information/White/2.png', 
       'assets/images/Partner/Information/White/3.png', 
@@ -558,21 +558,21 @@
       'assets/images/Partner/Information/White/16.png', 
 
     ];
-    const imageUrls3 = [
-      'assets/images/Partner/Technology/Back White/1.png',
-      'assets/images/Partner/Technology/Back White/2.png',
-      'assets/images/Partner/Technology/Back White/3.png',
-      'assets/images/Partner/Technology/Back White/4.png',
-      'assets/images/Partner/Technology/Back White/5.png',
-      'assets/images/Partner/Technology/Back White/6.png',
-      'assets/images/Partner/Technology/Back White/7.png',
-      'assets/images/Partner/Technology/Back White/8.png',
-      'assets/images/Partner/Technology/Back White/9.png',
-      'assets/images/Partner/Technology/Back White/10.png',
-      'assets/images/Partner/Technology/Back White/11.png',
-      'assets/images/Partner/Technology/Back White/12.png',
-    ];
     const imageUrls3_2 = [
+      'assets/images/Partner/Technology/BackWhite/1.png',
+      'assets/images/Partner/Technology/BackWhite/2.png',
+      'assets/images/Partner/Technology/BackWhite/3.png',
+      'assets/images/Partner/Technology/BackWhite/4.png',
+      'assets/images/Partner/Technology/BackWhite/5.png',
+      'assets/images/Partner/Technology/BackWhite/6.png',
+      'assets/images/Partner/Technology/BackWhite/7.png',
+      'assets/images/Partner/Technology/BackWhite/8.png',
+      'assets/images/Partner/Technology/BackWhite/9.png',
+      'assets/images/Partner/Technology/BackWhite/10.png',
+      'assets/images/Partner/Technology/BackWhite/11.png',
+      'assets/images/Partner/Technology/BackWhite/12.png',
+    ];
+    const imageUrls3 = [
       'assets/images/Partner/Technology/White/1.png',
       'assets/images/Partner/Technology/White/2.png',
       'assets/images/Partner/Technology/White/3.png',
@@ -587,31 +587,31 @@
       'assets/images/Partner/Technology/White/12.png',
     ];
 
-    const imageUrls4 = [
-      'assets/images/Clients/Back White/1.png',
-      'assets/images/Clients/Back White/2.png',
-      'assets/images/Clients/Back White/3.png',
-      'assets/images/Clients/Back White/4.png',
-      'assets/images/Clients/Back White/5.png',
-      'assets/images/Clients/Back White/6.png',
-      'assets/images/Clients/Back White/7.png',
-      'assets/images/Clients/Back White/8.png',
-      'assets/images/Clients/Back White/9.png',
-      'assets/images/Clients/Back White/10.png',
-      'assets/images/Clients/Back White/11.png',
-      'assets/images/Clients/Back White/12.png',
-      'assets/images/Clients/Back White/13.png',
-      'assets/images/Clients/Back White/14.png',
-      'assets/images/Clients/Back White/15.png',
-      'assets/images/Clients/Back White/16.png',
-      'assets/images/Clients/Back White/17.png',
-      'assets/images/Clients/Back White/18.png',
-      'assets/images/Clients/Back White/19.png',
-      'assets/images/Clients/Back White/20.png',
-      'assets/images/Clients/Back White/21.png',
+    const imageUrls4_2 = [
+      'assets/images/Clients/BackWhite/1.png',
+      'assets/images/Clients/BackWhite/2.png',
+      'assets/images/Clients/BackWhite/3.png',
+      'assets/images/Clients/BackWhite/4.png',
+      'assets/images/Clients/BackWhite/5.png',
+      'assets/images/Clients/BackWhite/6.png',
+      'assets/images/Clients/BackWhite/7.png',
+      'assets/images/Clients/BackWhite/8.png',
+      'assets/images/Clients/BackWhite/9.png',
+      'assets/images/Clients/BackWhite/10.png',
+      'assets/images/Clients/BackWhite/11.png',
+      'assets/images/Clients/BackWhite/12.png',
+      'assets/images/Clients/BackWhite/13.png',
+      'assets/images/Clients/BackWhite/14.png',
+      'assets/images/Clients/BackWhite/15.png',
+      'assets/images/Clients/BackWhite/16.png',
+      'assets/images/Clients/BackWhite/17.png',
+      'assets/images/Clients/BackWhite/18.png',
+      'assets/images/Clients/BackWhite/19.png',
+      'assets/images/Clients/BackWhite/20.png',
+      'assets/images/Clients/BackWhite/21.png',
     ];
 
-    const imageUrls4_2 = [
+    const imageUrls4 = [
       'assets/images/Clients/White/1.png',
       'assets/images/Clients/White/2.png',
       'assets/images/Clients/White/3.png',
@@ -644,16 +644,19 @@
     document.getElementById('pills-home-tab').addEventListener('click', () => {
       renderImages(imageUrls1, 'sponsor__slider__tab1');
       hideAllSlidersExcept('sponsor__slider__tab1');
+      reapplyHoverEvents();
     });
 
     document.getElementById('pills-profile-tab').addEventListener('click', () => {
       renderImages(imageUrls2, 'sponsor__slider__tab2');
       hideAllSlidersExcept('sponsor__slider__tab2');
+      reapplyHoverEvents();
     });
 
     document.getElementById('pills-contact-tab').addEventListener('click', () => {
       renderImages(imageUrls3, 'sponsor__slider__tab3');
       hideAllSlidersExcept('sponsor__slider__tab3');
+      reapplyHoverEvents();
     });
 
     function renderImages(imageUrls, containerId) {
@@ -671,6 +674,8 @@
         img.alt = 'Image';
         img.style.width = '100%';
         img.style.height = '100%';
+        img.style.objectFit = 'contain';
+        img.style.objectPosition = 'center';
 
 
         imgWrapper.appendChild(img);
@@ -733,55 +738,50 @@
 
 
 
-const originalImageArrays = [imageUrls1, imageUrls2, imageUrls3];
 
-document.querySelectorAll('.partaner_listiners .sponsor__slider').forEach((slider, index) => {
-  const originalImages = originalImageArrays[index];
- 
-  slider.addEventListener('mouseenter', function() {
-    if (index === 0) {
-      renderImages(imageUrls1_2, 'sponsor__slider__tab1'); 
-    } else if (index === 1) {
-      renderImages(imageUrls2_2, 'sponsor__slider__tab2'); 
-    } else if (index === 2) {
-      renderImages(imageUrls3_2, 'sponsor__slider__tab3'); 
-    }
-
-    const sponsorSingleItems = document.querySelectorAll(`.sponsor__slider__tab${index+1} .sponsor__single` );
-    sponsorSingleItems.forEach(item => {
-      item.style.backgroundColor = '#000';
+function handleHoverEvents(sliderSelector) {
+  document.querySelectorAll(sliderSelector).forEach((slider) => {
+    slider.addEventListener('mouseenter', function(event) {
+      event.target.style.backgroundColor = "#fff";
+      let hoveredImage = event.target.querySelector('img');
+      let newSrc = hoveredImage.src.replace('/White/', '/BackWhite/');
+      hoveredImage.src = newSrc;
     });
 
-  });
-  
-
-  slider.addEventListener('mouseleave', function() {
-    renderImages(originalImages, `sponsor__slider__tab${index + 1}`); 
-    const sponsorSingleItems = document.querySelectorAll(`.sponsor__slider__tab${index+1} .sponsor__single`);
-    sponsorSingleItems.forEach(item => {
-      item.style.backgroundColor = '#fff';
+    slider.addEventListener('mouseleave', function(event) {
+      event.target.style.backgroundColor = "#000";
+      let hoveredImage = event.target.querySelector('img');
+      let newSrc = hoveredImage.src.replace('/BackWhite/', '/White/');
+      hoveredImage.src = newSrc;
     });
   });
-});
+}
 
+function reapplyHoverEvents() {
+  handleHoverEvents('.sponsor__slider__tab1 .sponsor__single');
+  handleHoverEvents('.sponsor__slider__tab2 .sponsor__single');
+  handleHoverEvents('.sponsor__slider__tab3 .sponsor__single');
+}
 
-document.querySelectorAll('.clients_slider .sponsor__slider').forEach((slider, index) => {
-  slider.addEventListener('mouseenter', function() {
-      renderImages(imageUrls4_2, 'sponsor__slider__tab4'); 
-      const sponsorSingleItems = document.querySelectorAll(`.sponsor__slider__tab4 .sponsor__single` );
-      sponsorSingleItems.forEach(item => {
-        item.style.backgroundColor = '#000';
+reapplyHoverEvents();
+
+    document.querySelectorAll('.clients_slider .sponsor__slider .sponsor__single').forEach((slider, index) => {
+      slider.addEventListener('mouseenter', function(event) {
+          debugger
+          event.target.style.backgroundColor = "#fff";
+          let hoveredImage = event.target.querySelector('img'); 
+          let newSrc = hoveredImage.src.replace('/White/', '/BackWhite/');
+          hoveredImage.src = `${newSrc}`;
       });
+    
+      slider.addEventListener('mouseleave', function(event) {
+          event.target.style.backgroundColor = "#000";
+          let hoveredImage = event.target.querySelector('img'); 
+          let newSrc = hoveredImage.src.replace('/BackWhite/','/White/');
+          hoveredImage.src = `${newSrc}`;
+    });   
+    
   });
-
-  slider.addEventListener('mouseleave', function() {
-    renderImages(imageUrls4, `sponsor__slider__tab4`); 
-    const sponsorSingleItems = document.querySelectorAll(`.sponsor__slider__tab4 .sponsor__single`);
-    sponsorSingleItems.forEach(item => {
-      item.style.backgroundColor = '#fff';
-    });
-  });
-});
 
 
     /**
