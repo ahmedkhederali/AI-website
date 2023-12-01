@@ -36,7 +36,7 @@
       <link rel="stylesheet" href="footer.css">
 
    </head>
-   <body>
+   <body  class="home-seven">
       <!--[if lte IE 9]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
       <![endif]-->
@@ -83,7 +83,7 @@
          <!-- ==== / mouse cursor drag end ==== -->
          <!-- ==== header start ==== -->
          <header class="header">
-            <div class="primary-navbar primary-navbar-about">
+            <div class="primary-navbar">
               <div class="container">
                 <div class="row">
                   <div class="col-12">
@@ -122,7 +122,7 @@
                                         </ul>
                                      </li> -->
                           <li class="navbar__item nav-fade">
-                            <a href="index.html">Home</a>
+                            <a href="index.html" class="">Home</a>
                           </li>
                           <li class="navbar__item nav-fade">
                             <a href="#">Partners</a>
@@ -140,7 +140,7 @@
                             <a href="abous-us.html">About Us</a>
                           </li>
                           <li class="navbar__item nav-fade">
-                            <a href="contact-us.html">Contact Us</a>
+                            <a href="contact-us.html" class="active">Contact Us</a>
                           </li>
                         </ul>
                       </div>
@@ -466,6 +466,7 @@
                            <div class="col-12 col-lg-10 col-xxl-8">
                               <div class="cmn-banner__content text-center">
                                  <h2 class="light-title fw-7 text-white title-animation">Contact Us</h2>
+                                 <p>AI image generation tools have emerged as powerful resources in the realm of digital art and design. These cutting-edge tools leverage advanced machine learning algorithms</p>
                               </div>
                            </div>
                         </div>
@@ -532,47 +533,47 @@
                            <div class="col-12 col-lg-6 col-xl-6">
                               <div class="m-contact__form">
                                  <h3 class="title-animation fw-7 text-white text-uppercase mt-12">PLEASE MESSAGE ME, IF YOU HAVE ANY QUERIES</h3>
-                                 <form action="#" method="post">
+                                 <form action="" method="post" id="myForm">
                                     <div class="input-single">
-                                       <input
-                                          type="text"
-                                          name="c-name"
-                                          id="cName"
-                                          placeholder="Your Name"
-                                          required
-                                          >
+                                        <input
+                                            type="text"
+                                            name="c-name"
+                                            id="cName"
+                                            placeholder="Your Name"
+                                            required
+                                        >
                                     </div>
                                     <div class="input-single">
-                                       <input
-                                          type="email"
-                                          name="c-Email"
-                                          id="cEmail"
-                                          placeholder="Your Email"
-                                          required
-                                          >
+                                        <input
+                                            type="email"
+                                            name="c-Email"
+                                            id="cEmail"
+                                            placeholder="Your Email"
+                                            required
+                                        >
                                     </div>
                                     <div class="input-single">
-                                       <input
-                                          type="text"
-                                          name="c-number"
-                                          id="cnumber"
-                                          placeholder="Phone Number"
-                                          required
-                                          >
+                                        <input
+                                            type="text"
+                                            name="c-number"
+                                            id="cnumber"
+                                            placeholder="Phone Number"
+                                            required
+                                        >
                                     </div>
                                     <div class="input-single">
-                                       <textarea
-                                          name="c-message"
-                                          id="cMessage"
-                                          cols="30"
-                                          rows="10"
-                                          placeholder="Type A Message"
-                                          ></textarea>
+                                        <textarea
+                                            name="c-message"
+                                            id="cMessage"
+                                            cols="30"
+                                            rows="10"
+                                            placeholder="Type A Message"
+                                        ></textarea>
                                     </div>
                                     <div class="section__content-cta text-center">
-                                       <button type="submit" class="btn btn--primary">Submit Now</button>
+                                        <button type="submit" class="btn btn--primary" id="submitButton">Submit Now</button>
                                     </div>
-                                 </form>
+                                </form>
                               </div>
                            </div>
                            <div class="col-12 col-lg-6 col-xl-5 offset-xl-1">
