@@ -102,6 +102,10 @@
   --shadow-secondary: 0 0 31px rgba(0, 0, 0, 0.1);
 }
 
+@font-face {
+  font-family: 'electronic2'; /* Choose a name for your font */
+  src: url('/assets/css/v/ZilapBlackStormBlack-6wYD.ttf') format('truetype'); /* Adjust the path to your font file */
+}
 /* ==== 
  --------- (2.01) reset styles start ---------
  ==== */
@@ -398,6 +402,7 @@ p span {
 
 .title-animation {
   text-transform: capitalize !important;
+  font-family: "electronic2";
 }
 
 .title-animation > div > div:first-child {
@@ -1230,8 +1235,8 @@ span {
 .offcanvas-info_video .offcanvas-info__inner {
   display: flex;
   flex-direction: column;
-  padding: 80px 40px 40px 20px;
-  gap: 60px;
+  padding: 80px 20px 40px 20px;
+  gap: 40px;
   height: 100%;
   overflow-y: auto;
 }
@@ -1310,7 +1315,7 @@ span {
   margin-top: 30px;
 }
 .offcanvas-info .offcanvas-info__form form {
-  width: 94%;
+  width: 100%;
   margin-right: auto;
 }
 .offcanvas-info .offcanvas-info__footer {
@@ -1360,7 +1365,39 @@ span {
 .offcanvas-info-active {
   transform: translateX(0px);
 }
+.video-container{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 15px;
+}
 
+.overlay-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9); /* Adjust the overlay color and opacity */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.overlay-image {
+  width: 100px; /* Adjust the image size as needed */
+  height: 100px;
+  border-radius: 50%;
+
+  object-fit: cover;
+}
+
+.videoInMobile {
+  width: 100%;
+  height: 100%;
+}
 .offcanvas-info-backdrop {
   position: fixed;
   top: 0px;
@@ -1382,7 +1419,8 @@ span {
 /* for video 
  */
  .offcanvas-info_video {
-  width: 60rem;
+  width: 80rem;
+  background-image: linear-gradient(140deg, #11044c 0%, #8f208a 100%);;
 }
 /* end of video */
 @keyframes globalImageAnimation {
@@ -2128,6 +2166,10 @@ span {
 .primary-navbar .navbar__item button:hover,
 .primary-navbar .navbar__item a:hover {
   color: var(--primary-color);
+}
+.primary-navbar .navbar__item a.active{
+  color: var(--primary-color);
+
 }
 .primary-navbar .navbar__item--has-children {
   position: relative;
@@ -2878,7 +2920,7 @@ span {
 }
 
 .banner-seven {
-  padding: 260px 0px 100px;
+  padding: 250px 0px 100px;
   /* background: url("../images/drones-video.gif"); */
   background-repeat: no-repeat;
   background-size: cover;
@@ -3724,7 +3766,7 @@ span {
   height: 520px;
   min-height: 300px;
   border-radius: 50%;
-  background: rgba(149, 84, 255, 0.2);
+  background: rgb(2 0 21);
   filter: blur(130px);
   z-index: -1;
 }
@@ -8649,7 +8691,7 @@ span {
     margin-top: -173px !important;
   }
   .section{
-    padding: 50px 0 50px 0;
+    padding: 30px 0;
   }
   .pricing .section__header .section__content-cta{
     margin-left: 0px;
@@ -9631,7 +9673,7 @@ ul li:not(.header-list) {
   and (max-device-width: 1366px)
   and (-webkit-min-device-pixel-ratio: 2) {
   /* Styles for iPad Pro */
-
+  
   .banner-seven__group .content p{
     width: 100%;
   }
@@ -9646,7 +9688,7 @@ ul li:not(.header-list) {
   }
   .offcanvas-info, .offcanvas-info_video{
     /* width: auto; */
-    max-width: 80%;
+    max-width: 100%;
   }
   .section {
     padding: 40px 0;
@@ -9678,6 +9720,9 @@ ul li:not(.header-list) {
 @media only screen and (max-width: 767.98px){
   .custom-tabs{
     gap: 24px !important;
+  }
+  .overlay-div{
+    height: 33%;
   }
   .custom-tabs.nav-pills .nav-link{
     padding: 10px 7px 10px 7px !important;

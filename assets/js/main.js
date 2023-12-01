@@ -153,6 +153,27 @@
       itCursor();
     }
 
+
+
+    /**
+     * 
+     * Video Playing
+     */
+
+    $(".overlay-div").click(function () {
+      $(this).hide();
+      $(".videoInMobile")[0].src += "&autoplay=1";
+  });
+
+  // Pause the video and show the overlay on video click
+  $(".videoInMobile").click(function () {
+    debugger
+      if (!$(this).hasClass("paused")) {
+          $(this).addClass("paused");
+          $(this).attr("src", $(this).attr("src").replace("&autoplay=1", ""));
+          $(".overlay-div").show();
+      }
+  });
     /**
      * ======================================
      * 06. footer copyright year

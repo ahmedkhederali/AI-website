@@ -145,7 +145,7 @@
                                     </ul>
                                  </li> -->
                       <li class="navbar__item nav-fade">
-                        <a href="index.html">Home</a>
+                        <a href="index.html" class="active">Home</a>
                       </li>
                       <li class="navbar__item nav-fade">
                         <a href="#">Partners</a>
@@ -518,6 +518,9 @@
           </div>
           <!-- Your other content here -->
           <div class="video-container">
+            <div class="overlay-div">
+              <img src="assets/images/pause.jpg" alt="Pause Image" class="overlay-image">
+          </div>
             <iframe
               
               width="560"
@@ -525,7 +528,7 @@
               src="https://www.youtube.com/embed/4Fp3b6FiMpA?si=_w5eASPUWVssW4lj"
               title="YouTube video player"
               frameborder="0"
-              class="videoInMobile"
+              class="videoInMobile clickToPause"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen
             ></iframe>
@@ -625,7 +628,7 @@
 
             <!-- ==== 2- Solutions start ==== -->
             <section
-              class="section h-s-case"
+              class=" d-none d-md-block section h-s-case "
               data-background="assets/images/s-j-bg.png"
             >
               <div class="container">
@@ -771,6 +774,89 @@
               </div>
             </section>
             <!-- ==== / Solutions end ==== -->
+
+            <!-- start solution in mobile  -->
+            <section class=" d-block d-md-none section review lilu-review " style="background-color: rgb(6 1 33);">
+              <div class="container">
+                 <div class="row justify-content-center">
+                    <div class="col-12 col-lg-5">
+                       <div class="section__header text-center">
+                          <h2 class="title title-animation">Solutions</h2>
+                          <p style="font-size: 12px;"> AI chatbots can generate analytics and insights on user
+                            interactions,</p>
+                       </div>
+                    </div>
+                 </div>
+                 <div class="row">
+                    <div class="col-12">
+                       <div class="review__slider">
+                          <div class="review__slider-single">
+                             <p style="font-size: 12px;">AI-powered inpainting algorithms seamlessly restore the beauty and completeness.</p>
+                             <div class="review__meta">
+                                <div class="thumb" style="margin: auto;">
+                                   <img src="assets/images/ai.png" alt="Image">
+                                </div>
+                               
+                             </div>
+                          </div>
+                          <div class="review__slider-single">
+                             <p style="font-size: 12px;">AI-powered inpainting algorithms seamlessly restore the beauty and completeness.</p>
+                             <div class="review__meta">
+                                <div class="thumb" style="margin: auto;">
+                                   <img src="assets/images/cloud.jpg" alt="Image">
+                                </div>
+                               
+                             </div>
+                          </div>
+                          <div class="review__slider-single">
+                             <p style="font-size: 12px;">AI-powered inpainting algorithms seamlessly restore the beauty and completeness</p>
+                             <div class="review__meta">
+                                <div class="thumb" style="margin: auto;">
+                                   <img src="assets/images/drones.png" alt="Image">
+                                </div>
+                                
+                             </div>
+                          </div>
+                          <div class="review__slider-single">
+                             <p style="font-size: 12px;">AI-powered inpainting algorithms seamlessly restore the beauty and completeness</p>
+                             <div class="review__meta">
+                                <div class="thumb" style="margin: auto;">
+                                   <img src="assets/images/web.jpg" alt="Image">
+                                </div>
+                               
+                             </div>
+                          </div>
+                          <div class="review__slider-single">
+                             <p style="font-size: 12px;">AI-powered inpainting algorithms seamlessly restore the beauty and completeness</p>
+                             <div class="review__meta">
+                                <div class="thumb" style="margin: auto;">
+                                   <img src="assets/images/CONSULTING.jpg" alt="Image">
+                                </div>
+                               
+                             </div>
+                          </div>
+                          <div class="review__slider-single">
+                             <p style="font-size: 12px;">AI-powered inpainting algorithms seamlessly restore the beauty and completeness</p>
+                             <div class="review__meta">
+                                <div class="thumb" style="margin: auto;">
+                                   <img src="assets/images/other.jpg" alt="Image">
+                                </div>
+                                
+                             </div>
+                          </div>
+                       </div>
+                    </div>
+                 </div>
+                 <div class="row">
+                    <div class="col-12">
+                       <div class="section__cta">
+                          <div class="slider-pagination-group review-pagination d-flex justify-content-center"></div>
+                       </div>
+                    </div>
+                 </div>
+              </div>
+           </section>
+            <!-- End solution in mobile  -->
 
             <!-- ==== 3- About us start ==== -->
             <section class="section craft craft-alt">
