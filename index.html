@@ -148,7 +148,7 @@
                         <a href="index.html" class="active">Home</a>
                       </li>
                       <li class="navbar__item nav-fade">
-                        <a href="#">Partners</a>
+                        <a href="#Partners">Partners</a>
                       </li>
                       <li class="navbar__item nav-fade">
                         <a href="#">Solutions</a>
@@ -606,7 +606,7 @@
                 loop
                 muted
                 autoplay
-                src="assets/video/video.mp4"
+                src="assets/video/OutPut Wakeb.mp4"
                 class="fullscreen-bg__video"
               ></video>
               <div class="overlay"></div>
@@ -1114,12 +1114,13 @@
             <section
               class="section pricing pri-alt fade-wrapper"
               data-background="assets/images/s-j-bg.png"
+              id="Partners"
             >
               <!-- <div class="container"> -->
               <div class="row justify-content-center">
                 <div class="col-md-6 col-lg-10">
                   <div class="section__header partaner__container text-center tabs__icons">
-                    <h2 class="title mt-12 title-animation">
+                    <h2 class="title mt-12 title-animation" >
                       Digital Infrastructure & Information Security & Business
                       Solutions
                     </h2>
@@ -2123,7 +2124,20 @@
     <script src="assets/vendor/gsap/ScrollTrigger.min.js"></script>
     <!-- Load the Google Maps JavaScript API -->
 
-
+    <script>
+      $(document).ready(function() {
+        $('a[href^="#"]').on('click', function(event) {
+          var target = $(this.getAttribute('href'));
+          if (target.length) {
+            event.preventDefault();
+            $('html, body').stop().animate({
+              scrollTop: target.offset().top
+            }, 1000);
+          }
+        });
+      });
+    </script>
+    
 
 
   </body>
